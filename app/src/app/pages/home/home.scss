@@ -1,0 +1,61 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.hero {
+  // Measured: the homepage sits much tighter under the header than the
+  // other pages (30px vs the usual 97px).
+  --section-y-first: clamp(1rem, 2.1vw, 1.88rem);
+
+  padding-block: var(--section-y-first) var(--section-y);
+}
+
+.hero__inner {
+  @include container;
+}
+
+// The headline is an h4 in the original markup; here it is the page's h1 for
+// document structure, styled to the same size.
+.hero__title {
+  @include heading(var(--fs-h4));
+
+  color: var(--c-stone);
+  font-weight: var(--fw-medium);
+}
+
+.quote {
+  padding-block: var(--section-y-lg);
+}
+
+.quote__inner {
+  @include container;
+
+  display: flex;
+  // The original right-aligns this block to the container edge (x=392, w=991,
+  // ending flush at 1383) rather than centring it.
+  justify-content: flex-end;
+}
+
+blockquote {
+  max-width: 991px;
+  margin: 0;
+  font-size: var(--fs-lead);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-body);
+}
+
+.attribution {
+  padding-block: var(--section-y-lg);
+}
+
+.attribution__inner {
+  @include container;
+
+  p {
+    margin: 0;
+    color: var(--c-stone);
+    font-family: var(--font-heading);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-heading);
+  }
+}

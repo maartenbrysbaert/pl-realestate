@@ -1,0 +1,32 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <h2 class="footer__title">{{ site.name }}</h2>
+
+    <div class="footer__cols">
+      <div>
+        <p class="footer__address">
+          {{ site.address.street }}<br />
+          {{ site.address.city }}, {{ site.address.postalCode }}<br />
+          {{ site.address.country }}
+        </p>
+        <p class="footer__offices">
+          <span i18n="Footer, list of office locations">Private &amp; flex offices:</span>
+          {{ officeList }}
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <a [href]="site.phoneHref">{{ site.phone }}</a><br />
+          <a [href]="site.emailHref">{{ site.email }}</a>
+        </p>
+        <p i18n="Footer, availability">Wij zijn beschikbaar 24/24, 7/7.</p>
+        <p>
+          <a class="footer__more" routerLink="/contact" i18n="Footer link to contact page"
+            >Meer info</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

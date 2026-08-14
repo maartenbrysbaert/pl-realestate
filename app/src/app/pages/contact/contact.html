@@ -1,0 +1,96 @@
+<section class="contact">
+  <div class="contact__inner">
+    <div class="contact__details">
+      <h1 class="contact__title" i18n="Contact page heading">Contacteer ons</h1>
+      <hr class="contact__rule" />
+
+      <p i18n="Contact page, address label">Maatschappelijke zetel:</p>
+      <p>
+        {{ site.address.street }}<br />
+        {{ site.address.city }}, {{ site.address.postalCode }}<br />
+        {{ site.address.country }}
+      </p>
+
+      <p class="contact__offices">
+        <span i18n="Contact page, list of office locations">Private &amp; flex offices:</span>
+        {{ officeList }}
+      </p>
+
+      <p>
+        <a [href]="site.phoneHref">{{ site.phone }}</a
+        ><br />
+        <a [href]="site.emailHref">{{ site.email }}</a>
+      </p>
+
+      <p i18n="Contact page, availability">Wij zijn beschikbaar 24/24, 7/7.</p>
+
+      <p i18n="Contact page, social intro">Volg Patrick Landuyt op LinkedIn en Luxevastgoed:</p>
+      <app-social-links />
+    </div>
+
+    <div class="contact__form">
+      <app-contact-form />
+    </div>
+  </div>
+</section>
+
+<section class="further">
+  <div class="further__inner">
+    <div class="further__content">
+      <h2 class="further__title" i18n="Contact page, second section heading">Verdere info</h2>
+      <hr class="contact__rule" />
+
+      <p><strong>Patrick Landuyt</strong></p>
+      <p i18n="Contact page, role">Zaakvoerder</p>
+      <p i18n="Contact page, profession">Vastgoedmakelaar bemiddelaar</p>
+      <p>
+        <span i18n="Contact page, BIV registration label">BIV erkenningsnummer voor Belgïe:</span>
+        {{ site.legal.bivNumber }}
+      </p>
+      <p>
+        <span i18n="Contact page, company number label">Ondernemingsnummer:</span>
+        {{ site.legal.companyNumber }}
+      </p>
+      <p><span i18n="Contact page, VAT label">BTW</span> {{ site.legal.vat }}</p>
+      <p>
+        <span i18n="Contact page, third-party account label">Derdenrekening:</span>
+        {{ site.legal.thirdPartyAccount }}
+      </p>
+      <p>
+        <span i18n="Contact page, liability insurance label">BA &amp; Borgstelling:</span>
+        {{ site.legal.insurance }}
+      </p>
+      <p i18n="Contact page, code of conduct">
+        Onderworpen aan de deontologische code van het BIV, Beroepsinstituut van de
+        Vastgoedmakelaars.
+      </p>
+      <p>
+        <span i18n="Contact page, supervisory authority label">Toezichthoudende autoriteit</span>
+        {{ site.legal.supervisor }}
+      </p>
+      <p>
+        <a href="mailto:{{ site.legal.supervisorEmail }}">{{ site.legal.supervisorEmail }}</a>
+        - {{ site.legal.supervisorPhone }}
+      </p>
+      <p>
+        <span i18n="Contact page, code of conduct link label">Deontologie &amp; Plichtenleer:</span>
+        <a [href]="site.legal.codeOfConductHref" target="_blank" rel="noopener noreferrer">
+          {{ site.legal.codeOfConduct }}</a
+        >
+      </p>
+      <p>
+        <span i18n="Contact page, terms acceptance notice"
+          >Als u deze site bezoekt, gaat u akkoord met de</span
+        >
+        <a class="further__link" routerLink="/algemene-voorwaarden" i18n="Link to the terms page"
+          >Algemene voorwaarden</a
+        >
+      </p>
+      <p>
+        <span i18n="Contact page, insurance sentence"
+          >Verzekering BA en borgstelling via NV AXA Belgium ( polis nr.730.390.160)</span
+        >
+      </p>
+    </div>
+  </div>
+</section>

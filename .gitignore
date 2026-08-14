@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.angular/
+
+# Captured migration reference material: scraped Squarespace markup, styles and
+# originals. Reproducible via tools/capture-reference.mjs while the live site is
+# up, and not ours to redistribute, so it stays out of the repo.
+reference/
+
+# Working notes on the client, open legal points and the cutover.
+NOTES.md
+
+# Lighthouse run artifacts
+lh-*.json
+lh.json

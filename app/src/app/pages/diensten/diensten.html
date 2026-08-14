@@ -1,0 +1,79 @@
+<section class="services">
+  <div class="services__inner">
+    <img
+      class="services__photo"
+      ngSrc="/img/page/diensten-lead-600.webp"
+      width="600"
+      height="300"
+      priority
+      i18n-alt
+      alt="Een gezin wandelt door een landschapstuin naar een oranjerie"
+    />
+
+    <div class="services__panel">
+      <h1 class="services__lead" i18n="Services page, lead paragraph">
+        U kan bij Patrick Landuyt terecht voor verscheidene diensten, waar expertise, ervaring en
+        resultaat steeds garant staan.
+      </h1>
+
+      <ul class="accordion">
+        @for (service of services; track service.id) {
+          <li class="accordion__item">
+            <h2 class="accordion__heading">
+              <button
+                class="accordion__trigger"
+                type="button"
+                [attr.aria-expanded]="isOpen(service.id)"
+                [attr.aria-controls]="'panel-' + service.id"
+                [id]="'trigger-' + service.id"
+                (click)="toggle(service.id)"
+              >
+                <span>{{ service.title }}</span>
+                <svg
+                  class="accordion__chevron"
+                  [class.is-open]="isOpen(service.id)"
+                  viewBox="0 0 14 8"
+                  aria-hidden="true"
+                >
+                  <path fill="none" stroke="currentColor" stroke-width="1.2" d="M1 1l6 6 6-6" />
+                </svg>
+              </button>
+            </h2>
+
+            @if (isOpen(service.id)) {
+              <div
+                class="accordion__body"
+                [id]="'panel-' + service.id"
+                role="region"
+                [attr.aria-labelledby]="'trigger-' + service.id"
+              >
+                <ul>
+                  @for (item of service.items; track $index) {
+                    <li>
+                      @if (item.label) {
+                        <strong>{{ item.label }}</strong>
+                      }
+                      {{ item.text }}
+                      @if (item.link) {
+                        <a
+                          [href]="item.link.href"
+                          [attr.target]="item.link.href.startsWith('http') ? '_blank' : null"
+                          [attr.rel]="
+                            item.link.href.startsWith('http') ? 'noopener noreferrer' : null
+                          "
+                          >{{ item.link.text }}</a
+                        >
+                      }
+                    </li>
+                  }
+                </ul>
+              </div>
+            }
+          </li>
+        }
+      </ul>
+
+      <a class="services__button" routerLink="/contact" i18n="Button label">Contact</a>
+    </div>
+  </div>
+</section>

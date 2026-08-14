@@ -1,0 +1,138 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.services {
+  padding-block: var(--section-y-first) var(--section-y-lg);
+}
+
+// This page sits in a narrower frame than the header: measured on the original
+// the photo starts at x=113 and the accordion ends at x=1329, so ~1216 centred.
+.services__inner {
+  @include container;
+
+  max-width: calc(1216px + 2 * var(--gutter));
+  display: grid;
+  // Measured at 1440: photo 113..715 (602), panel 837..1329 (492), 122 between.
+  grid-template-columns: 602fr 492fr;
+  // 122px at 1440; scales down so the two columns survive to the 768px
+  // breakpoint, which is where the original finally stacks them.
+  gap: clamp(2rem, 8.5vw, 122px);
+  // Top-aligned, not centred: the accordion changes height as panels open, and
+  // centring made the photo jump every time.
+  align-items: start;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    align-items: stretch;
+  }
+}
+
+// The source photo is 1000x500; Squarespace crops it to a taller frame with a
+// centred focal point, so cover-crop to the same ratio rather than letterbox.
+.services__photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 601 / 463;
+  object-fit: cover;
+}
+
+.services__panel {
+  max-width: 560px;
+}
+
+.services__lead {
+  @include heading(var(--fs-h4));
+
+  margin-bottom: var(--space-2xs);
+  font-weight: var(--fw-bold);
+}
+
+// ----------------------------------------------------------------- accordion
+
+.accordion {
+  margin: 0 0 var(--space-sm);
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--c-rule-soft);
+}
+
+.accordion__item {
+  border-bottom: 1px solid var(--c-rule-soft);
+}
+
+.accordion__heading {
+  margin: 0;
+  font: inherit;
+}
+
+.accordion__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  width: 100%;
+  // 0.69em keeps the row pitch at the original 52px.
+  padding: 0.69em 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-body);
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--c-stone);
+  }
+}
+
+.accordion__chevron {
+  width: 14px;
+  height: 8px;
+  flex: none;
+  transition: transform var(--transition);
+
+  &.is-open {
+    transform: rotate(180deg);
+  }
+}
+
+.accordion__body {
+  padding-bottom: var(--space-sm);
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: var(--space-xs);
+    font-size: var(--fs-small);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    display: block;
+    font-weight: var(--fw-medium);
+  }
+
+  a {
+    color: var(--c-stone);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+  }
+}
+
+.services__button {
+  @include button;
+
+  min-width: 212px;
+}

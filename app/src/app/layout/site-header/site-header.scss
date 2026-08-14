@@ -1,0 +1,258 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.skip {
+  @include visually-hidden;
+
+  &:focus-visible {
+    position: fixed;
+    top: var(--space-2xs);
+    left: var(--space-2xs);
+    z-index: 100;
+    width: auto;
+    height: auto;
+    clip-path: none;
+    padding: 0.75em 1.5em;
+    background: var(--c-navy);
+    color: var(--c-paper);
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
+    letter-spacing: var(--ls-action);
+  }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--c-paper);
+  border-bottom: 1px solid var(--c-rule-soft);
+}
+
+.header__inner {
+  @include container;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  min-height: 108px;
+
+  @include mobile {
+    min-height: 72px;
+  }
+}
+
+.wordmark {
+  font-family: var(--font-wordmark);
+  font-size: var(--fs-wordmark);
+  font-weight: 400;
+  line-height: var(--lh-wordmark);
+  white-space: nowrap;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: none;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  a {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-light);
+
+    // The original underlines the current page rather than colouring it.
+    &.is-active {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+  }
+}
+
+// ------------------------------------------------------------ language picker
+
+.lang {
+  position: relative;
+}
+
+.lang__toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.25em 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-light);
+  cursor: pointer;
+}
+
+.lang__globe {
+  width: 19px;
+  height: 19px;
+  flex: none;
+}
+
+.lang__chevron {
+  width: 10px;
+  height: 6px;
+  flex: none;
+}
+
+.lang__menu {
+  position: absolute;
+  top: calc(100% + 0.75em);
+  right: 0;
+  z-index: 10;
+  min-width: 11rem;
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+  background: var(--c-paper);
+  border: 1px solid var(--c-rule);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+
+  // Collapsed by default. The links are still present in the prerendered HTML,
+  // which is what crawlers parse for the sibling-locale URLs.
+  display: none;
+
+  &.is-open {
+    display: block;
+  }
+
+  // With JS unavailable the toggle never fires, so fall back to hover/focus.
+  .lang:hover &,
+  .lang:focus-within & {
+    display: block;
+  }
+
+  a {
+    display: block;
+    padding: 0.5em 1.25em;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-light);
+    white-space: nowrap;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--c-field);
+      text-decoration: none;
+    }
+
+    &.is-current {
+      font-weight: var(--fw-medium);
+    }
+  }
+
+  @include mobile {
+    position: static;
+    min-width: 0;
+    border: 0;
+    box-shadow: none;
+    padding-left: 0;
+
+    a {
+      padding-inline: 0;
+    }
+  }
+}
+
+// -------------------------------------------------------------------- mobile
+
+.burger {
+  display: none;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.5em 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-action);
+  cursor: pointer;
+}
+
+.burger__bars {
+  display: grid;
+  gap: 4px;
+
+  i {
+    display: block;
+    width: 22px;
+    height: 1.5px;
+    background: currentcolor;
+  }
+}
+
+// Between 768 and 991 the full nav still shows, but it only fits if the links
+// and the language picker tighten up.
+@include tablet {
+  .header__inner {
+    gap: var(--space-xs);
+  }
+
+  .nav {
+    gap: var(--space-sm);
+  }
+
+  .nav__list {
+    gap: var(--space-xs);
+
+    a {
+      font-size: var(--fs-small);
+    }
+  }
+
+  .lang__toggle {
+    gap: 0.35em;
+    font-size: var(--fs-small);
+  }
+}
+
+@include mobile {
+  .burger {
+    display: flex;
+  }
+
+  // Icon only - the "Menu" label does not fit next to the wordmark at 390px.
+  .burger__label {
+    @include visually-hidden;
+  }
+
+  .nav {
+    position: absolute;
+    inset: 100% 0 auto;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    padding: var(--space-sm) var(--gutter) var(--space-md);
+    background: var(--c-paper);
+    border-bottom: 1px solid var(--c-rule-soft);
+
+    &--open {
+      display: flex;
+    }
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2xs);
+  }
+}

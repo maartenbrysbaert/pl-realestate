@@ -1,0 +1,26 @@
+<!doctype html>
+<!--
+  Netlify registers forms by parsing the deployed HTML at build time. The real
+  form is rendered by Angular and posts here via fetch, so this static copy is
+  what makes Netlify aware the form exists. It is never linked or shown.
+
+  Every field the app submits must be listed here, or Netlify silently discards
+  it from the submission.
+-->
+<html lang="nl-BE">
+  <head>
+    <meta charset="utf-8" />
+    <title>Netlify form registration</title>
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
+  <body>
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="naam" />
+      <input type="email" name="email" />
+      <input type="text" name="onderwerp" />
+      <textarea name="bericht"></textarea>
+    </form>
+  </body>
+</html>

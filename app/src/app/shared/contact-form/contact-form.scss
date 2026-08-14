@@ -1,0 +1,72 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.form__honeypot {
+  @include visually-hidden;
+}
+
+// Measured on the original: 95px from one field label to the next, which the
+// default padding overshot by roughly 20px per field.
+.field {
+  margin-bottom: var(--space-2xs);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.2em;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-light);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.4em 0.9em;
+  border: 1px solid var(--c-rule);
+  border-radius: 0;
+  background: var(--c-field);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-body);
+
+  &[aria-invalid='true'] {
+    border-color: #a4331f;
+  }
+}
+
+textarea {
+  min-height: 5rem;
+  resize: vertical;
+}
+
+.field__error {
+  margin: 0.4em 0 0;
+  color: #a4331f;
+  font-size: var(--fs-small);
+}
+
+.form__submit {
+  @include button;
+
+  min-width: 136px;
+
+  &:disabled {
+    cursor: progress;
+    opacity: 0.6;
+  }
+}
+
+.form__status {
+  margin: var(--space-xs) 0 0;
+  font-size: var(--fs-small);
+
+  &:empty {
+    margin: 0;
+  }
+}
+
+.form__status--error {
+  color: #a4331f;
+}

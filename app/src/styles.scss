@@ -1,0 +1,98 @@
+// Self-hosted font faces are listed in angular.json's `styles` array, ahead of
+// this file - they are plain CSS and Sass will not accept "300" as a module
+// namespace, nor @import after @use.
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-paper);
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+
+p {
+  margin: 0 0 var(--space-xs);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-navy);
+  outline-offset: 2px;
+}
+
+// Type ramp shrinks on small screens; values match the original's tablet and
+// mobile breakpoint output.
+// The original keeps the full navigation down to 768px and only then switches
+// to a burger, scaling the wordmark to make room (33.3px at 1440, 26px at 834).
+@include tablet {
+  :root {
+    --fs-h2: 36px;
+    --fs-h3: 28px;
+    --fs-h4: 22px;
+    --fs-lead: 20px;
+    --fs-wordmark: 24px;
+  }
+}
+
+@include mobile {
+  :root {
+    --fs-h2: 30px;
+    --fs-h3: 24px;
+    --fs-h4: 20px;
+    --fs-lead: 18px;
+    --fs-wordmark: 21px;
+    --space-2xl: 4.5rem;
+    --space-xl: 3.5rem;
+  }
+}

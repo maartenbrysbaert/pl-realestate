@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="nl-BE">
+  <file id="ngi18n" original="ng.template">
+    <unit id="2824719637004225478">
+      <notes>
+        <note category="location">src/app/data/services.ts:25</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Verkoop van alle vastgoed</source>
+      </segment>
+    </unit>
+    <unit id="7356576328198945962">
+      <notes>
+        <note category="location">src/app/data/services.ts:28</note>
+        <note category="description">Service item label</note>
+      </notes>
+      <segment>
+        <source>Residentieel vastgoed:</source>
+      </segment>
+    </unit>
+    <unit id="8319761382592843561">
+      <notes>
+        <note category="location">src/app/data/services.ts:29</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Gronden, appartementen, klassieke woningen &amp; exclusieve villa&apos;s, uitzonderlijk &amp; uniek vastgoed</source>
+      </segment>
+    </unit>
+    <unit id="7345881260792048214">
+      <notes>
+        <note category="location">src/app/data/services.ts:32</note>
+        <note category="description">Service item label</note>
+      </notes>
+      <segment>
+        <source>Investeringsvastgoed:</source>
+      </segment>
+    </unit>
+    <unit id="1171838949603860494">
+      <notes>
+        <note category="location">src/app/data/services.ts:33</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Projecten en verkavelingen</source>
+      </segment>
+    </unit>
+    <unit id="3189588237461722809">
+      <notes>
+        <note category="location">src/app/data/services.ts:36</note>
+        <note category="description">Service item label</note>
+      </notes>
+      <segment>
+        <source>Bedrijfsvastgoed:</source>
+      </segment>
+    </unit>
+    <unit id="8826725499134716160">
+      <notes>
+        <note category="location">src/app/data/services.ts:37</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Kantoren, loodsen, KMO-units, …</source>
+      </segment>
+    </unit>
+    <unit id="4424033214697197694">
+      <notes>
+        <note category="location">src/app/data/services.ts:40</note>
+        <note category="description">Service item label</note>
+      </notes>
+      <segment>
+        <source>Commercieel vastgoed:</source>
+      </segment>
+    </unit>
+    <unit id="5087724586444508453">
+      <notes>
+        <note category="location">src/app/data/services.ts:41</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Winkelruimtes, hotels, ...</source>
+      </segment>
+    </unit>
+    <unit id="1285168634706432483">
+      <notes>
+        <note category="location">src/app/data/services.ts:47</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Discrete verkoop</source>
+      </segment>
+    </unit>
+    <unit id="1281653455215013849">
+      <notes>
+        <note category="location">src/app/data/services.ts:50</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Wenst u een &apos;stille&apos; verkoop, waarbij uw buren dit niet merken?</source>
+      </segment>
+    </unit>
+    <unit id="4121297178791162097">
+      <notes>
+        <note category="location">src/app/data/services.ts:53</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Als géén ander hanteert Patrick Landuyt deze vruchtbare techniek en zorgt ervoor dat enkel de juiste kandidaten uw eigendom zullen bezoeken.</source>
+      </segment>
+    </unit>
+    <unit id="4020744163530883584">
+      <notes>
+        <note category="location">src/app/data/services.ts:56</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Hierbij wordt Patrick Landuyt ondersteunt door een database van zoekende klanten en een uitgebreid netwerk, welke eveneens erg op hun discretie zijn gesteld.</source>
+      </segment>
+    </unit>
+    <unit id="5915188711544346826">
+      <notes>
+        <note category="location">src/app/data/services.ts:59</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Een méést doorgedreven discrete vastgoedcommunicatie.</source>
+      </segment>
+    </unit>
+    <unit id="857050756167998005">
+      <notes>
+        <note category="location">src/app/data/services.ts:65</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Erkende schattingen - Pro evaluation</source>
+      </segment>
+    </unit>
+    <unit id="2682712982806285317">
+      <notes>
+        <note category="location">src/app/data/services.ts:68</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Een professionele schatting gebeurt vanuit diverse invalshoeken, ervaring en marktkennis.</source>
+      </segment>
+    </unit>
+    <unit id="5758006783634241285">
+      <notes>
+        <note category="location">src/app/data/services.ts:71</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We verzorgen multidisciplinaire &amp; erkende schattingen op basis van VLABEL-methodologie, KAVEX rekenmodellen, Stadim, …</source>
+      </segment>
+    </unit>
+    <unit id="61923593609641503">
+      <notes>
+        <note category="location">src/app/data/services.ts:77</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>SOS-Vastgoed</source>
+      </segment>
+    </unit>
+    <unit id="3017454823898994484">
+      <notes>
+        <note category="location">src/app/data/services.ts:80</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Uw eigendom staat reeds te koop, maar verloopt dit niet naar wens? U bent niet tevreden omtrent de huidige begeleiding of vooropgestelde verwachtingen worden niet ingelost?</source>
+      </segment>
+    </unit>
+    <unit id="5546605531103809078">
+      <notes>
+        <note category="location">src/app/data/services.ts:82</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We herkennen deze situaties zeker en vast.</source>
+      </segment>
+    </unit>
+    <unit id="1930978926566415788">
+      <notes>
+        <note category="location">src/app/data/services.ts:84</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Menige verkoopopdrachten hebben we overgenomen en tot een goed einde geleid. Referenties worden u ter beschikking gesteld.</source>
+      </segment>
+    </unit>
+    <unit id="7660447918928760523">
+      <notes>
+        <note category="location">src/app/data/services.ts:90</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>PRO-advice</source>
+      </segment>
+    </unit>
+    <unit id="1668518586717414774">
+      <notes>
+        <note category="location">src/app/data/services.ts:93</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Uniek platform en samenwerkingsverbanden, waarbij advies en verkoopondersteuning wordt versterkt aan collega makelaars, landmeters, notarissen, bankiers en vermogensbeheerders, family offices, …</source>
+      </segment>
+    </unit>
+    <unit id="4006031221254028970">
+      <notes>
+        <note category="location">src/app/data/services.ts:96</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Tevens bieden we ondersteuning en oplossingen bij onverdeeldheid en vastgoedconflicten.</source>
+      </segment>
+    </unit>
+    <unit id="5352154449814301772">
+      <notes>
+        <note category="location">src/app/data/services.ts:102</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Share deals &amp; asset deals</source>
+      </segment>
+    </unit>
+    <unit id="3855902992317379769">
+      <notes>
+        <note category="location">src/app/data/services.ts:105</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Een klassieke verkoop onderworpen aan verkooprechten of registratierechten is het meest voorkomend.</source>
+      </segment>
+    </unit>
+    <unit id="5867518853520034653">
+      <notes>
+        <note category="location">src/app/data/services.ts:108</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Zit uw vastgoed echter in een vennootschap? Samen met u en uw accountant waarderen we de aandelen en berekenen we de latenties. Ook wordt er gezocht naar een koper voor de aandelen.</source>
+      </segment>
+    </unit>
+    <unit id="5528240340276837342">
+      <notes>
+        <note category="location">src/app/data/services.ts:114</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Aankoopbegeleiding</source>
+      </segment>
+    </unit>
+    <unit id="5410260558799112916">
+      <notes>
+        <note category="location">src/app/data/services.ts:116</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>U overweegt de aankoop van een eigendom?</source>
+      </segment>
+    </unit>
+    <unit id="764209215620934996">
+      <notes>
+        <note category="location">src/app/data/services.ts:117</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We verdedigen uw belangen als koper.</source>
+      </segment>
+    </unit>
+    <unit id="5428460205114988373">
+      <notes>
+        <note category="location">src/app/data/services.ts:118</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We besparen u vele euro&apos;s &amp; kopzorgen!</source>
+      </segment>
+    </unit>
+    <unit id="650758677043510870">
+      <notes>
+        <note category="location">src/app/data/services.ts:120</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Voor een méér &quot;Op maat begeleidingspakket&quot;, verzoeken we u een kijkje te nemen op:</source>
+      </segment>
+    </unit>
+    <unit id="8579281221302447361">
+      <notes>
+        <note category="location">src/app/data/services.ts:130</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Gratis homefinder: wij vinden uw droomwoning!</source>
+      </segment>
+    </unit>
+    <unit id="2768415932521201260">
+      <notes>
+        <note category="location">src/app/data/services.ts:132</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We helpen u bij het vinden van uw droomwoning.</source>
+      </segment>
+    </unit>
+    <unit id="2717100038941789541">
+      <notes>
+        <note category="location">src/app/data/services.ts:134</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>De zoektocht naar uw ideale woning kan een ingewikkelde en lange zoektocht zijn. Het ene huis voldoet nét niet aan alle eisen en voor het andere bent u nét te laat. U wilt eigenlijk als eerste op de hoogte zijn en bericht krijgen wanneer uw droomwoning beschikbaar is.</source>
+      </segment>
+    </unit>
+    <unit id="1035293282196822236">
+      <notes>
+        <note category="location">src/app/data/services.ts:137</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Onze troef is het persoonlijke &amp; discrete karakter van onze begeleidingen. Als grondlegger van de PRO-SALE community beschikken we over een méést uitgebreid – en op maat aangepast - netwerk om eigendommen te vinden welke grotendeels nog niet via openbare kanalen te koop worden aangeboden.</source>
+      </segment>
+    </unit>
+    <unit id="9155757813333725928">
+      <notes>
+        <note category="location">src/app/data/services.ts:140</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We nodigen u uit na te denken hoe uw droomwoning eruit ziet, waar uw prioriteiten liggen en de criteria die ons hierbij zouden kunnen helpen. We toetsen dit dan af een onze interne checklisten.</source>
+      </segment>
+    </unit>
+    <unit id="3422282814199751733">
+      <notes>
+        <note category="location">src/app/data/services.ts:143</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Laat het ons weten via</source>
+      </segment>
+    </unit>
+    <unit id="4235045421646975855">
+      <notes>
+        <note category="location">src/app/data/services.ts:153</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Kleinschalige projectontwikkeling</source>
+      </segment>
+    </unit>
+    <unit id="4142395755320181848">
+      <notes>
+        <note category="location">src/app/data/services.ts:156</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Heeft u bouwgrond of een renovatiepand welke eventueel in aanmerking komt voor herbestemming of projectontwikkeling?</source>
+      </segment>
+    </unit>
+    <unit id="7303850091528598766">
+      <notes>
+        <note category="location">src/app/data/services.ts:159</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Via een haalbaarheidsstudie onderzoeken we de mogelijkheden en optimale winst of opbrengst.</source>
+      </segment>
+    </unit>
+    <unit id="8638878598209711199">
+      <notes>
+        <note category="location">src/app/data/services.ts:162</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>We leggen contacten met de diensten van de gemeenten of steden. We toetsen dit alles af bij bouwheren/ontwikkelaars.</source>
+      </segment>
+    </unit>
+    <unit id="8630856080102296913">
+      <notes>
+        <note category="location">src/app/data/services.ts:168</note>
+        <note category="description">Service heading</note>
+      </notes>
+      <segment>
+        <source>Vermogen, optimalisatie &amp; successie</source>
+      </segment>
+    </unit>
+    <unit id="2928147460137718646">
+      <notes>
+        <note category="location">src/app/data/services.ts:171</note>
+        <note category="description">Service item</note>
+      </notes>
+      <segment>
+        <source>Wij helpen je mee met het optimaliseren van je vermogen, zowel privé als professioneel. En hoe toekomstgericht geld te besparen of hoe een vastgoedverkoop zien in het kader van successie. Iedere klant krijgt een gratis introductie sessie.</source>
+      </segment>
+    </unit>
+    <unit id="2225089313017165850">
+      <notes>
+        <note category="location">src/app/layout/site-footer/site-footer.html:13,15</note>
+        <note category="location">src/app/pages/contact/contact.html:15,19</note>
+        <note category="description">Footer, list of office locations</note>
+      </notes>
+      <segment>
+        <source>Private &amp; flex offices:</source>
+      </segment>
+    </unit>
+    <unit id="7167143024565190814">
+      <notes>
+        <note category="location">src/app/layout/site-footer/site-footer.html:23,25</note>
+        <note category="location">src/app/pages/contact/contact.html:24,26</note>
+        <note category="description">Footer, availability</note>
+      </notes>
+      <segment>
+        <source>Wij zijn beschikbaar 24/24, 7/7.</source>
+      </segment>
+    </unit>
+    <unit id="2047530427608946279">
+      <notes>
+        <note category="location">src/app/layout/site-footer/site-footer.html:26,29</note>
+        <note category="description">Footer link to contact page</note>
+      </notes>
+      <segment>
+        <source>Meer info</source>
+      </segment>
+    </unit>
+    <unit id="4977134742164455668">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.html:1,3</note>
+        <note category="description">Skip link</note>
+      </notes>
+      <segment>
+        <source>Doorgaan naar inhoud</source>
+      </segment>
+    </unit>
+    <unit id="2102825898069375693">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.html:14,15</note>
+        <note category="description">Mobile menu button</note>
+      </notes>
+      <segment>
+        <source>Menu</source>
+      </segment>
+    </unit>
+    <unit id="4935484294703377668">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.html:23,25</note>
+      </notes>
+      <segment>
+        <source>Hoofdnavigatie</source>
+      </segment>
+    </unit>
+    <unit id="2624226064809724288">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.ts:23</note>
+        <note category="description">Main navigation</note>
+      </notes>
+      <segment>
+        <source>Over</source>
+      </segment>
+    </unit>
+    <unit id="2114302687343180890">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.ts:24</note>
+        <note category="description">Main navigation</note>
+      </notes>
+      <segment>
+        <source>Diensten</source>
+      </segment>
+    </unit>
+    <unit id="3254750300857685592">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.ts:25</note>
+        <note category="location">src/app/pages/referenties/referenties.html:3,5</note>
+        <note category="description">Main navigation</note>
+      </notes>
+      <segment>
+        <source>Referenties</source>
+      </segment>
+    </unit>
+    <unit id="7922989125096435449">
+      <notes>
+        <note category="location">src/app/layout/site-header/site-header.ts:26</note>
+        <note category="location">src/app/pages/diensten/diensten.html:76,79</note>
+        <note category="location">src/app/shared/cta-band/cta-band.html:10,13</note>
+        <note category="description">Main navigation</note>
+      </notes>
+      <segment>
+        <source>Contact</source>
+      </segment>
+    </unit>
+    <unit id="261993142158688022">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:4,5</note>
+        <note category="description">Contact page heading</note>
+      </notes>
+      <segment>
+        <source>Contacteer ons</source>
+      </segment>
+    </unit>
+    <unit id="4505070338818967882">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:7,9</note>
+        <note category="description">Contact page, address label</note>
+      </notes>
+      <segment>
+        <source>Maatschappelijke zetel:</source>
+      </segment>
+    </unit>
+    <unit id="5088470611328742870">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:26,28</note>
+        <note category="description">Contact page, social intro</note>
+      </notes>
+      <segment>
+        <source>Volg Patrick Landuyt op LinkedIn en Luxevastgoed:</source>
+      </segment>
+    </unit>
+    <unit id="4625502246390783726">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:38,41</note>
+        <note category="description">Contact page, second section heading</note>
+      </notes>
+      <segment>
+        <source>Verdere info</source>
+      </segment>
+    </unit>
+    <unit id="1798991146770678770">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:42,43</note>
+        <note category="description">Contact page, role</note>
+      </notes>
+      <segment>
+        <source>Zaakvoerder</source>
+      </segment>
+    </unit>
+    <unit id="3940387495972688831">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:43,45</note>
+        <note category="description">Contact page, profession</note>
+      </notes>
+      <segment>
+        <source>Vastgoedmakelaar bemiddelaar</source>
+      </segment>
+    </unit>
+    <unit id="851565097298472013">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:45,47</note>
+        <note category="description">Contact page, BIV registration label</note>
+      </notes>
+      <segment>
+        <source>BIV erkenningsnummer voor Belgïe:</source>
+      </segment>
+    </unit>
+    <unit id="7220068666068151451">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:49,51</note>
+        <note category="description">Contact page, company number label</note>
+      </notes>
+      <segment>
+        <source>Ondernemingsnummer:</source>
+      </segment>
+    </unit>
+    <unit id="7684158887035521524">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:52,53</note>
+        <note category="description">Contact page, VAT label</note>
+      </notes>
+      <segment>
+        <source>BTW</source>
+      </segment>
+    </unit>
+    <unit id="8082800020687891764">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:54,56</note>
+        <note category="description">Contact page, third-party account label</note>
+      </notes>
+      <segment>
+        <source>Derdenrekening:</source>
+      </segment>
+    </unit>
+    <unit id="4785400436726697566">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:58,60</note>
+        <note category="description">Contact page, liability insurance label</note>
+      </notes>
+      <segment>
+        <source>BA &amp; Borgstelling:</source>
+      </segment>
+    </unit>
+    <unit id="136113679378084325">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:62,66</note>
+        <note category="description">Contact page, code of conduct</note>
+      </notes>
+      <segment>
+        <source> Onderworpen aan de deontologische code van het BIV, Beroepsinstituut van de Vastgoedmakelaars. </source>
+      </segment>
+    </unit>
+    <unit id="8711850313817829823">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:66,69</note>
+        <note category="description">Contact page, supervisory authority label</note>
+      </notes>
+      <segment>
+        <source>Toezichthoudende autoriteit</source>
+      </segment>
+    </unit>
+    <unit id="2769305003039266362">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:74,75</note>
+        <note category="description">Contact page, code of conduct link label</note>
+      </notes>
+      <segment>
+        <source>Deontologie &amp; Plichtenleer:</source>
+      </segment>
+    </unit>
+    <unit id="4039704906828800414">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:81,83</note>
+        <note category="description">Contact page, terms acceptance notice</note>
+      </notes>
+      <segment>
+        <source>Als u deze site bezoekt, gaat u akkoord met de</source>
+      </segment>
+    </unit>
+    <unit id="6840139098211435781">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:84,88</note>
+        <note category="location">src/app/pages/terms/terms.html:8,10</note>
+        <note category="description">Link to the terms page</note>
+      </notes>
+      <segment>
+        <source>Algemene voorwaarden</source>
+      </segment>
+    </unit>
+    <unit id="5885992084035129297">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.html:89,94</note>
+        <note category="description">Contact page, insurance sentence</note>
+      </notes>
+      <segment>
+        <source>Verzekering BA en borgstelling via NV AXA Belgium ( polis nr.730.390.160)</source>
+      </segment>
+    </unit>
+    <unit id="1584170996894075991">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.ts:20</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Contact | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="8381255278769716613">
+      <notes>
+        <note category="location">src/app/pages/contact/contact.ts:21</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Neem contact op met Patrick Landuyt — Nazarethstraat 6, De Pinte. Bereikbaar 24/24, 7/7.</source>
+      </segment>
+    </unit>
+    <unit id="8212578364377120584">
+      <notes>
+        <note category="location">src/app/pages/diensten/diensten.html:10,13</note>
+      </notes>
+      <segment>
+        <source>Een gezin wandelt door een landschapstuin naar een oranjerie</source>
+      </segment>
+    </unit>
+    <unit id="2133690754308869644">
+      <notes>
+        <note category="location">src/app/pages/diensten/diensten.html:15,19</note>
+        <note category="description">Services page, lead paragraph</note>
+      </notes>
+      <segment>
+        <source> U kan bij Patrick Landuyt terecht voor verscheidene diensten, waar expertise, ervaring en resultaat steeds garant staan. </source>
+      </segment>
+    </unit>
+    <unit id="1267483347674019437">
+      <notes>
+        <note category="location">src/app/pages/diensten/diensten.ts:21</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Diensten | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="6348610037752534498">
+      <notes>
+        <note category="location">src/app/pages/diensten/diensten.ts:22</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Verkoop, discrete verkoop, erkende schattingen, aankoopbegeleiding, share deals en projectontwikkeling — waar expertise, ervaring en resultaat steeds garant staan.</source>
+      </segment>
+    </unit>
+    <unit id="5848677750370400621">
+      <notes>
+        <note category="location">src/app/pages/home/home.html:3,7</note>
+        <note category="description">Homepage headline</note>
+      </notes>
+      <segment>
+        <source>BEMIDDELING ZOALS HET MOET</source>
+      </segment>
+    </unit>
+    <unit id="2419356026353457069">
+      <notes>
+        <note category="location">src/app/pages/home/home.html:12,15</note>
+        <note category="description">Homepage testimonial</note>
+      </notes>
+      <segment>
+        <source> “Niemand beheerst een danige variëteit in vastgoeddossiers als Patrick Landuyt. Over regio&apos;s heen overstijgen zijn aanpak en resultaten iedere aanwezige lokale expertise. Met een ongeziene empathie, focus en karakter weet hij verkoper én koper met elkander te verbinden” </source>
+      </segment>
+    </unit>
+    <unit id="8821574155361434746">
+      <notes>
+        <note category="location">src/app/pages/home/home.html:21,24</note>
+        <note category="description">Homepage, testimonial attribution</note>
+      </notes>
+      <segment>
+        <source>(Referentie op aanvraag)</source>
+      </segment>
+    </unit>
+    <unit id="7605819962521424606">
+      <notes>
+        <note category="location">src/app/pages/home/home.ts:17</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>PL Real Estate by Patrick Landuyt</source>
+      </segment>
+    </unit>
+    <unit id="6977951577944802800">
+      <notes>
+        <note category="location">src/app/pages/home/home.ts:18</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Bemiddeling zoals het moet. Discrete begeleiding van vastgoedtransacties in België, met meer dan 500 afgeronde opdrachten.</source>
+      </segment>
+    </unit>
+    <unit id="7213352886216244812">
+      <notes>
+        <note category="location">src/app/pages/not-found/not-found.ts:10,11</note>
+        <note category="description">404 page heading</note>
+      </notes>
+      <segment>
+        <source>Pagina niet gevonden</source>
+      </segment>
+    </unit>
+    <unit id="2656159435481715690">
+      <notes>
+        <note category="location">src/app/pages/not-found/not-found.ts:12,14</note>
+        <note category="description">404 page body</note>
+      </notes>
+      <segment>
+        <source> De pagina die u zoekt bestaat niet of werd verplaatst. </source>
+      </segment>
+    </unit>
+    <unit id="1119170293406575687">
+      <notes>
+        <note category="location">src/app/pages/not-found/not-found.ts:14,17</note>
+        <note category="description">404 page link</note>
+      </notes>
+      <segment>
+        <source>Terug naar de homepage</source>
+      </segment>
+    </unit>
+    <unit id="6275543859068726677">
+      <notes>
+        <note category="location">src/app/pages/not-found/not-found.ts:42</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Pagina niet gevonden | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="691074024278495421">
+      <notes>
+        <note category="location">src/app/pages/not-found/not-found.ts:43</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>De pagina die u zoekt bestaat niet of werd verplaatst.</source>
+      </segment>
+    </unit>
+    <unit id="700528455992195282">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:14,20</note>
+        <note category="description">About page, tagline under the portrait</note>
+      </notes>
+      <segment>
+        <source> Grondlegger in het discreet begeleiden van vastgoedtransacties. </source>
+      </segment>
+    </unit>
+    <unit id="4065081080807134326">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:30,32</note>
+        <note category="description">About page, section heading</note>
+      </notes>
+      <segment>
+        <source>Bemiddeling zoals het moet</source>
+      </segment>
+    </unit>
+    <unit id="3348579981528721528">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:33,39</note>
+        <note category="description">About page, approach</note>
+      </notes>
+      <segment>
+        <source> Opgestart in 2009 koos Patrick Landuyt de moeilijkste weg. In alle stilte, zonder borden of grote budgetten, maar met de hoogste eisen stellende aan zichzelf. Gedreven en innovatief in vastgoedcommunicatie &amp; verkoopstrategieën. Als een pragmatische doorzetter met een empathisch vermogen, een uitmuntend gevoel voor zintuiglijkheid en een ongeëvenaarde focus op elk dossier, klein of groot. Daardoor wist hij snel het vertrouwen te winnen van een vééleisend cliënteel. En wordt gerespecteerd door vele collega&apos;s in de vastgoedsector vanwege zijn voorbeeldfunctie en behaalde resultaten in soms zeer uitdagende verkoopdossiers. </source>
+      </segment>
+    </unit>
+    <unit id="4512708668601130417">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:46,48</note>
+        <note category="description">About page, section heading</note>
+      </notes>
+      <segment>
+        <source>Onze klanten</source>
+      </segment>
+    </unit>
+    <unit id="7166848059275795975">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:49,51</note>
+        <note category="description">About page, clients</note>
+      </notes>
+      <segment>
+        <source> Ondernemers, bedrijfsleiders, kaderleden, vrije beroepers, zelfstandigen, … </source>
+      </segment>
+    </unit>
+    <unit id="7025800737143237400">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:51,52</note>
+        <note category="description">About page, clients</note>
+      </notes>
+      <segment>
+        <source>Allen die dagdagelijks het beste geven van zichzelf.</source>
+      </segment>
+    </unit>
+    <unit id="885762601242795429">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:52,56</note>
+        <note category="description">About page, clients</note>
+      </notes>
+      <segment>
+        <source>Gegroeid vanuit mond-tot-mondreclame</source>
+      </segment>
+    </unit>
+    <unit id="3534184655783687187">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:57,59</note>
+        <note category="description">About page, section heading</note>
+      </notes>
+      <segment>
+        <source>Onze sociale meerwaarde</source>
+      </segment>
+    </unit>
+    <unit id="8355551818109259591">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:60,63</note>
+        <note category="description">About page, social value - Victor Hugo quotation</note>
+      </notes>
+      <segment>
+        <source> “De Geest wordt rijk door wat hij ontvangt, het Hart wordt rijk, door wat hij geeft, …” - Victor Hugo </source>
+      </segment>
+    </unit>
+    <unit id="1782430515744446933">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:64,66</note>
+        <note category="description">About page, social value</note>
+      </notes>
+      <segment>
+        <source> Naast onze professionele engagement bouwen we graag aan een sociale nalatenschap. </source>
+      </segment>
+    </unit>
+    <unit id="3269311648261633116">
+      <notes>
+        <note category="location">src/app/pages/over/over.html:67,70</note>
+        <note category="description">About page, social value</note>
+      </notes>
+      <segment>
+        <source> We hebben de mogelijkheden, de mentale/fysieke gezondheid en de kracht om ons dagelijks in te mogen zetten. Dit is niet iedereen gegeven. Dit indachtig wordt jaarlijks een deel van onze resultaten voorbehouden aan sociale en menselijke doelen. </source>
+      </segment>
+    </unit>
+    <unit id="3470626012285100688">
+      <notes>
+        <note category="location">src/app/pages/over/over.ts:15</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Over Patrick Landuyt | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="3919868670087641171">
+      <notes>
+        <note category="location">src/app/pages/over/over.ts:16</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Grondlegger in het discreet begeleiden van vastgoedtransacties. Sinds 2009 bemiddeling zoals het moet, voor een vééleisend cliënteel.</source>
+      </segment>
+    </unit>
+    <unit id="8671562172031319285">
+      <notes>
+        <note category="location">src/app/pages/referenties/referenties.html:6,10</note>
+        <note category="description">References page, intro</note>
+      </notes>
+      <segment>
+        <source> De slideshow geeft een aantal referenties weer van begeleide transacties, verkopen en adviesopdrachten. Een representatieve greep uit de +/- 500 opdrachten waarin we het vertrouwen mochten verdienen. </source>
+      </segment>
+    </unit>
+    <unit id="605471870189647579">
+      <notes>
+        <note category="location">src/app/pages/referenties/referenties.html:11,14</note>
+        <note category="description">References page, intro</note>
+      </notes>
+      <segment>
+        <source> Discretie is één van onze uitgangspunten, met als doel vertrouwen en gemoedsrust te creëren. Op aanvraag geven we u graag onze échte referenties. </source>
+      </segment>
+    </unit>
+    <unit id="2730453391220205608">
+      <notes>
+        <note category="location">src/app/pages/referenties/referenties.ts:18</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Referenties | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="1294474362055205269">
+      <notes>
+        <note category="location">src/app/pages/referenties/referenties.ts:19</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Een representatieve greep uit de +/- 500 begeleide transacties, verkopen en adviesopdrachten van PL Real Estate.</source>
+      </segment>
+    </unit>
+    <unit id="3387422732252707037">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:10,11</note>
+        <note category="description">Terms section heading</note>
+      </notes>
+      <segment>
+        <source>GDPR</source>
+      </segment>
+    </unit>
+    <unit id="8440128775129354214">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:11,12</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Privacy</source>
+      </segment>
+    </unit>
+    <unit id="1753713469555143858">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:13,16</note>
+        <note category="description">Terms, privacy intro</note>
+      </notes>
+      <segment>
+        <source> Immophone-Partners verwerkt persoonsgegevens overeenkomstig deze privacyverklaring. Voor verdere informatie, vragen of opmerkingen omtrent ons privacy beleid, kunt u terecht op www.immophone&amp;Partners.be en via info@immophone-partners.be </source>
+      </segment>
+    </unit>
+    <unit id="3483553546458955813">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:18,19</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Verwerkingsdoeleinden</source>
+      </segment>
+    </unit>
+    <unit id="126523943370994542">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:20,25</note>
+        <note category="description">Terms, processing purposes</note>
+      </notes>
+      <segment>
+        <source> Immophone-Partners verzamelt en verwerkt de persoonsgegevens van klanten voor klantenbeheer (o.a. klantenadministratie, georganiseerde bezoeken, wettelijke rapportering naar opdrachtgevers en het verzenden van marketing mails in de vorm van gepersonaliseerde matching mailings). </source>
+      </segment>
+    </unit>
+    <unit id="3449679380341947868">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:26,28</note>
+        <note category="description">Terms, data collected intro</note>
+      </notes>
+      <segment>
+        <source> Hieronder vindt u een overzicht van de verzamelde gegevens: </source>
+      </segment>
+    </unit>
+    <unit id="7079956219038610713">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:29,30</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>Voor- en achternaam</source>
+      </segment>
+    </unit>
+    <unit id="1956201792872193223">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:30,31</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>E-mailadres</source>
+      </segment>
+    </unit>
+    <unit id="752475410512539383">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:31,32</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>Adresgegevens</source>
+      </segment>
+    </unit>
+    <unit id="6873549325688386846">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:32,33</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>Geslacht</source>
+      </segment>
+    </unit>
+    <unit id="6114976750145007862">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:33,34</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>Telefoonnummer</source>
+      </segment>
+    </unit>
+    <unit id="3235796904077668795">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:34,35</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>GSM nummer</source>
+      </segment>
+    </unit>
+    <unit id="3328255063844405341">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:35,38</note>
+        <note category="description">Terms, data collected</note>
+      </notes>
+      <segment>
+        <source>IP-adres</source>
+      </segment>
+    </unit>
+    <unit id="2515936421162061468">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:38,39</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Rechtsgrond(en) van de verwerking</source>
+      </segment>
+    </unit>
+    <unit id="1302415204734038492">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:39,41</note>
+        <note category="description">Terms, legal basis intro</note>
+      </notes>
+      <segment>
+        <source>Persoonsgegevens worden verwerkt op basis van artikel 6.1.</source>
+      </segment>
+    </unit>
+    <unit id="5126577623436900088">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:41,42</note>
+        <note category="description">Terms, legal basis</note>
+      </notes>
+      <segment>
+        <source>(a) toestemming,</source>
+      </segment>
+    </unit>
+    <unit id="2652859067268368514">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:42,43</note>
+        <note category="description">Terms, legal basis</note>
+      </notes>
+      <segment>
+        <source>(b) noodzakelijk voor de uitvoering van een overeenkomst</source>
+      </segment>
+    </unit>
+    <unit id="8919528560156231271">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:43,44</note>
+        <note category="description">Terms, legal basis</note>
+      </notes>
+      <segment>
+        <source>(c) noodzakelijk om te voldoen aan een wettelijke verplichting</source>
+      </segment>
+    </unit>
+    <unit id="6510146852161010220">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:45,48</note>
+        <note category="description">Terms, legal basis</note>
+      </notes>
+      <segment>
+        <source> (f) noodzakelijk voor de behartiging van onze gerechtvaardigde belang om te ondernemen </source>
+      </segment>
+    </unit>
+    <unit id="3216348405008610920">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:48,49</note>
+        <note category="description">Terms, legal basis closing</note>
+      </notes>
+      <segment>
+        <source>van de Algemene Verordening Gegevensbescherming.</source>
+      </segment>
+    </unit>
+    <unit id="6157301068036028278">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:50,54</note>
+        <note category="description">Terms, consent withdrawal</note>
+      </notes>
+      <segment>
+        <source> In zoverre de verwerking van de persoonsgegevens plaatsvindt op basis van artikel 6.1. a) toestemming, heeft de klant steeds het recht om de gegeven toestemming terug in te trekken. </source>
+      </segment>
+    </unit>
+    <unit id="3628429885436212576">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:54,55</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Overmaken aan derden</source>
+      </segment>
+    </unit>
+    <unit id="5520704218812815828">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:56,62</note>
+        <note category="description">Terms, third party transfer</note>
+      </notes>
+      <segment>
+        <source> Indien dit noodzakelijk is ter verwezenlijking van de vooropgestelde doeleinden, zullen de persoonsgegevens van de klant worden gedeeld met andere vennootschappen (van de Immophone&amp;Partners groep) binnen de Europese Economische Ruimte die rechtstreeks of onrechtstreeks met Immophone-Partners verbonden zijn of met enige andere partner van Immophone-Partners groep) Immophone-Partners garandeert dat deze ontvangers de nodige technische en organisatorische maatregelen zullen nemen ter bescherming van de persoonsgegevens. </source>
+      </segment>
+    </unit>
+    <unit id="6468989323114229167">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:65,66</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Bewaarperiode</source>
+      </segment>
+    </unit>
+    <unit id="5172812945278281520">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:67,72</note>
+        <note category="description">Terms, retention period</note>
+      </notes>
+      <segment>
+        <source> De persoonsgegevens verwerkt voor klantenbeheer zullen worden bewaard gedurende de termijn die noodzakelijk is om aan de wettelijke vereisten te voldoen (onder andere op het gebied van boekhouding). </source>
+      </segment>
+    </unit>
+    <unit id="3075859353634662579">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:73,76</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source> Recht van inzage, verbetering, wissen, beperking, bezwaar en overdraagbaarheid van de persoonsgegevens </source>
+      </segment>
+    </unit>
+    <unit id="150371939714696258">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:77,82</note>
+        <note category="description">Terms, data subject rights</note>
+      </notes>
+      <segment>
+        <source> De klant heeft te allen tijde recht op inzage van zijn persoonsgegevens en kan ze (laten) verbeteren indien ze onjuist of onvolledig zijn, ze laten verwijderen, de verwerking ervan laten beperken en bezwaar te maken tegen de verwerking van hem betreffende persoonsgegevens op basis van artikel 6.1 (f). </source>
+      </segment>
+    </unit>
+    <unit id="1374118202820507297">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:83,87</note>
+        <note category="description">Terms, data portability</note>
+      </notes>
+      <segment>
+        <source> Bovendien, heeft de klant het recht om een kopie (in een gestructureerde, gangbare en machinaal leesbare vorm) van zijn persoonsgegevens te bekomen en de persoonsgegevens te laten doorsturen naar een andere vennootschap. </source>
+      </segment>
+    </unit>
+    <unit id="3775385524113795275">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:88,91</note>
+        <note category="description">Terms, exercising rights intro</note>
+      </notes>
+      <segment>
+        <source> Teneinde bovenvermelde rechten uit te oefenen, wordt de klant gevraagd om een van volgende stappen te ondernemen: </source>
+      </segment>
+    </unit>
+    <unit id="67697517617190249">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:92,93</note>
+        <note category="description">Terms, exercising rights</note>
+      </notes>
+      <segment>
+        <source>zelf de instellingen van zijn klant account aan te passen;</source>
+      </segment>
+    </unit>
+    <unit id="1290337552400190358">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:94,96</note>
+        <note category="description">Terms, exercising rights</note>
+      </notes>
+      <segment>
+        <source> een e-mail te verzenden naar het volgende e-mailadres: info@immophone-partners.be </source>
+      </segment>
+    </unit>
+    <unit id="8247136782694029523">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:97,101</note>
+        <note category="description">Terms, exercising rights</note>
+      </notes>
+      <segment>
+        <source> een brief te richten aan Immophone-partners, Nazarethstraat 6 te 9840 De Pinte </source>
+      </segment>
+    </unit>
+    <unit id="3081472148419215673">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:101,102</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Direct marketing</source>
+      </segment>
+    </unit>
+    <unit id="2911991515888637660">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:103,107</note>
+        <note category="description">Terms, direct marketing</note>
+      </notes>
+      <segment>
+        <source> De klant heeft het recht zich kosteloos te verzetten tegen elke verwerking van zijn persoonsgegevens met het oog op direct marketing. </source>
+      </segment>
+    </unit>
+    <unit id="1680766934750596766">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:107,108</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Klacht</source>
+      </segment>
+    </unit>
+    <unit id="741762569619545330">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:109,112</note>
+        <note category="description">Terms, complaints</note>
+      </notes>
+      <segment>
+        <source> De Klant beschikt over het recht om een klacht in te dienen bij de Commissie voor de Bescherming van de Persoonlijke Levenssfeer (Drukpersstraat 35, 1000 Brussel - commission@privacycommission.be). </source>
+      </segment>
+    </unit>
+    <unit id="2104072033747255147">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:114,115</note>
+        <note category="description">Terms section heading</note>
+      </notes>
+      <segment>
+        <source>Cookieverklaring</source>
+      </segment>
+    </unit>
+    <unit id="8438226787988716856">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:116,119</note>
+        <note category="description">Terms, cookie statement</note>
+      </notes>
+      <segment>
+        <source> Immophone-partners groep bevestigd géén gebruik te maken van cookies. </source>
+      </segment>
+    </unit>
+    <unit id="7830917335993271586">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:119,120</note>
+        <note category="description">Terms section heading</note>
+      </notes>
+      <segment>
+        <source>Voorwaarden</source>
+      </segment>
+    </unit>
+    <unit id="3429591513264222657">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:121,125</note>
+        <note category="description">Terms, acceptance</note>
+      </notes>
+      <segment>
+        <source> Uw gebruik van de site “www.immophone-partners.be” houdt in dat u de volgende gebruiksvoorwaarden integraal aanvaardt. </source>
+      </segment>
+    </unit>
+    <unit id="913721761961592495">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:125,126</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Betrouwbaarheid van de informatie op de site</source>
+      </segment>
+    </unit>
+    <unit id="1284091202250907761">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:127,137</note>
+        <note category="description">Terms, reliability of information</note>
+      </notes>
+      <segment>
+        <source> Op onze site informeren wij u op geheel vrijblijvende wijze. Deze gegevens worden u geheel ter informatie aangeboden en wij kunnen u dus niet garanderen dat de informatie betrouwbaar, volledig en pertinent is. Wij bevelen u bijgevolg aan een beroep te doen op betrouwbare professionele adviseurs (vastgoedmakelaars, experts, architecten, advocaten, notarissen, fiscalisten of andere) alvorens een beslissing te nemen in verband met één of ander aspect van uw onroerende goederen. Wij doen al het mogelijke om op de “Immophone-partners” makelaars-site betrouwbare en regelmatig geüpdate vastgoedinformatie ter beschikking te stellen. De website kan echter niet verantwoordelijk gesteld worden voor eventuele fouten in de informatie. Wij raden u bijgevolg ten stelligste aan om, voordat u eender welke beslissing neemt (aankoop, huur,...) omtrent het vastgoed, zelf de juistheid van de informatie en de beschikbaarheid van het vastgoed na te gaan door contact met ons op te nemen. </source>
+      </segment>
+    </unit>
+    <unit id="5477786543985609285">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:140,141</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Beschikbaarheid van de site</source>
+      </segment>
+    </unit>
+    <unit id="9034275522089315582">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:142,148</note>
+        <note category="description">Terms, site availability</note>
+      </notes>
+      <segment>
+        <source> Hoewel wij ons inzetten om de &quot;Immophone-partners” makelaars-site 7 dagen op 7 en 24 uur op 24 ter beschikking te stellen, behouden wij ons het recht om op elk moment en zonder voorafgaande waarschuwing, de toegang tot de site te onderbreken om technische redenen of andere. Wij behoudens ons eveneens het recht onze diensten te beëindigen. Dit zonder dat we kunnen verantwoordelijk gehouden worden voor deze onderbrekingen en de mogelijke gevolgen hiervan voor u of een derde. </source>
+      </segment>
+    </unit>
+    <unit id="2258740501221248766">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:150,151</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Toegangsverbod tot de site</source>
+      </segment>
+    </unit>
+    <unit id="5908082031682265344">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:152,155</note>
+        <note category="description">Terms, access ban intro</note>
+      </notes>
+      <segment>
+        <source> Wij behouden ons het recht eenzijdig de toegang te verbieden tot heel de site of een gedeelte ervan voor elke fysieke of rechtspersoon: </source>
+      </segment>
+    </unit>
+    <unit id="4804103535723444973">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:156,157</note>
+        <note category="description">Terms, access ban</note>
+      </notes>
+      <segment>
+        <source>die deze gebruiksvoorwaarden zou overtreden</source>
+      </segment>
+    </unit>
+    <unit id="3427494000694102967">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:158,160</note>
+        <note category="description">Terms, access ban</note>
+      </notes>
+      <segment>
+        <source> die op de één of andere manier de goede reputatie van de site zou aantasten </source>
+      </segment>
+    </unit>
+    <unit id="9181360441261448306">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:160,161</note>
+        <note category="description">Terms, access ban</note>
+      </notes>
+      <segment>
+        <source>die inbreuk zou plegen op de intellectuele rechten van derden</source>
+      </segment>
+    </unit>
+    <unit id="1884342838925773742">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:161,163</note>
+        <note category="description">Terms, access ban</note>
+      </notes>
+      <segment>
+        <source>die de site zou aanwenden voor onwettige doeleinden</source>
+      </segment>
+    </unit>
+    <unit id="5491334507958432317">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:164,167</note>
+        <note category="description">Terms, access ban closing</note>
+      </notes>
+      <segment>
+        <source> Wij behouden ons eveneens het recht om diezelfde personen gerechtelijk te vervolgen. </source>
+      </segment>
+    </unit>
+    <unit id="4248119867406570757">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:167,168</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Wet van toepassing en rechtspraak</source>
+      </segment>
+    </unit>
+    <unit id="820336749689352131">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:169,174</note>
+        <note category="description">Terms, applicable law</note>
+      </notes>
+      <segment>
+        <source> Voor elk eventueel geschil dat voortvloeit uit het gebruik van de “Immophone-partners” makelaars-site is de Belgische wet van toepassing, en enkel de Belgische rechtbanken zijn bevoegd. </source>
+      </segment>
+    </unit>
+    <unit id="1449299707739440248">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:174,175</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source>Bescherming van intellectuele rechten</source>
+      </segment>
+    </unit>
+    <unit id="8940442328876062037">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:176,180</note>
+        <note category="description">Terms, IP rights</note>
+      </notes>
+      <segment>
+        <source> Het logo, evenals de bedrijfsnaam van Immophone-Partners behoren tot diens eigen auteursrecht en mogen onder geen beding worden gereproduceerd of weergegeven zonder toestemming van Immophone-partners. </source>
+      </segment>
+    </unit>
+    <unit id="1745408025656170450">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:181,184</note>
+        <note category="description">Terms, IP rights</note>
+      </notes>
+      <segment>
+        <source> De aanwezigheid van andere handelsnamen of merknamen of de website van Immophone-partners, geschiedt na uitdrukkelijke toestemming van de rechthebbenden daarop. </source>
+      </segment>
+    </unit>
+    <unit id="8115706845311625911">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:185,189</note>
+        <note category="description">Terms, IP rights</note>
+      </notes>
+      <segment>
+        <source> Immophone-partners draagt niettemin geen enkele aansprakelijkheid voor de aanwezigheid van informatie op haar website die mogelijks een inbreuk zouden plegen op intellectuele rechten van derden. </source>
+      </segment>
+    </unit>
+    <unit id="6270437825959299004">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:190,194</note>
+        <note category="description">Terms, IP rights</note>
+      </notes>
+      <segment>
+        <source> Partijen die menen dat hun intellectuele rechten werden geschonden door een niet toegelaten gebruik van hun werk op de website van Immophone-partners, worden vriendelijk uitgenodigd hiervan ten spoedigste Immophone-partners in kennis te stellen, welke alsdan het nodige zal doen om het inbreukmakend materiaal minstens tijdelijk van de website te verwijderen. </source>
+      </segment>
+    </unit>
+    <unit id="2493187787288546697">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:197,199</note>
+        <note category="description">Terms subsection heading</note>
+      </notes>
+      <segment>
+        <source> Informatie verplichting (Europese AVG-Richtlijn 2016/679 in voege vanaf 25 mei 2018) </source>
+      </segment>
+    </unit>
+    <unit id="4381188749288822303">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.html:200,206</note>
+        <note category="description">Terms, information obligation</note>
+      </notes>
+      <segment>
+        <source> Ons algemeen beleid op het vlak van gegevensbescherming vindt u terug onder de link Privacy. U hebt het recht om uw gegevens in te zien, te verbeteren en in bepaalde omstandigheden te laten wissen. Als u het niet eens bent met de manier waarop wij uw gegevens verwerken, gelieve u te wenden tot de Gegevensbeschermingsautoriteit (www.privacycommission.be – Drukpersstraat 35 te 1000 Brussel). </source>
+      </segment>
+    </unit>
+    <unit id="6951416800444725903">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.ts:25</note>
+        <note category="description">Page title</note>
+      </notes>
+      <segment>
+        <source>Algemene voorwaarden | PL Real Estate</source>
+      </segment>
+    </unit>
+    <unit id="7659784520987759409">
+      <notes>
+        <note category="location">src/app/pages/terms/terms.ts:26</note>
+        <note category="description">Meta description</note>
+      </notes>
+      <segment>
+        <source>Privacyverklaring, cookieverklaring en gebruiksvoorwaarden van PL Real Estate.</source>
+      </segment>
+    </unit>
+    <unit id="8587732191115859424">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:13,16</note>
+        <note category="description">Contact form field label</note>
+      </notes>
+      <segment>
+        <source>Naam</source>
+      </segment>
+    </unit>
+    <unit id="6332857723247326011">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:23,27</note>
+        <note category="description">Contact form validation</note>
+      </notes>
+      <segment>
+        <source>Vul uw naam in.</source>
+      </segment>
+    </unit>
+    <unit id="1890300073702152532">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:28,31</note>
+        <note category="description">Contact form field label</note>
+      </notes>
+      <segment>
+        <source>E-mail</source>
+      </segment>
+    </unit>
+    <unit id="4288079899151728630">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:38,42</note>
+        <note category="description">Contact form validation</note>
+      </notes>
+      <segment>
+        <source>Vul een geldig e-mailadres in.</source>
+      </segment>
+    </unit>
+    <unit id="1062929830599253429">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:43,44</note>
+        <note category="description">Contact form field label</note>
+      </notes>
+      <segment>
+        <source>Onderwerp</source>
+      </segment>
+    </unit>
+    <unit id="6948263535749335849">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:48,50</note>
+        <note category="description">Contact form field label</note>
+      </notes>
+      <segment>
+        <source>Bericht</source>
+      </segment>
+    </unit>
+    <unit id="2966813519132800719">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:57,61</note>
+        <note category="description">Contact form validation</note>
+      </notes>
+      <segment>
+        <source>Vul uw bericht in.</source>
+      </segment>
+    </unit>
+    <unit id="8120519818858651657">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:63,65</note>
+        <note category="description">Contact form button, while submitting</note>
+      </notes>
+      <segment>
+        <source>Verzenden…</source>
+      </segment>
+    </unit>
+    <unit id="4030353278332240156">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:65,69</note>
+        <note category="description">Contact form button</note>
+      </notes>
+      <segment>
+        <source>Verzenden</source>
+      </segment>
+    </unit>
+    <unit id="2589092942116593943">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:72,74</note>
+        <note category="description">Contact form confirmation</note>
+      </notes>
+      <segment>
+        <source>Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.</source>
+      </segment>
+    </unit>
+    <unit id="4267108926787703611">
+      <notes>
+        <note category="location">src/app/shared/contact-form/contact-form.html:76,80</note>
+        <note category="description">Contact form error</note>
+      </notes>
+      <segment>
+        <source>Er ging iets mis bij het verzenden. Probeer het opnieuw of bel ons rechtstreeks.</source>
+      </segment>
+    </unit>
+    <unit id="4544982108855797081">
+      <notes>
+        <note category="location">src/app/shared/cta-band/cta-band.html:3,6</note>
+        <note category="description">Closing call to action heading</note>
+      </notes>
+      <segment>
+        <source>Samen aan de slag?</source>
+      </segment>
+    </unit>
+    <unit id="2658314346886800319">
+      <notes>
+        <note category="location">src/app/shared/cta-band/cta-band.html:8,10</note>
+        <note category="description">Closing call to action, intro line</note>
+      </notes>
+      <segment>
+        <source> Benieuwd wat ik voor u kan betekenen of voor een kort gratis advies: </source>
+      </segment>
+    </unit>
+    <unit id="252063439024126322">
+      <notes>
+        <note category="location">src/app/shared/cta-band/cta-band.html:15,17</note>
+        <note category="description">Closing call to action, social intro</note>
+      </notes>
+      <segment>
+        <source> Volg Patrick Landuyt op LinkedIn en Luxevastgoed: </source>
+      </segment>
+    </unit>
+    <unit id="530255640747572589">
+      <notes>
+        <note category="location">src/app/shared/project-gallery/project-gallery.html:7,8</note>
+      </notes>
+      <segment>
+        <source>Referenties diavoorstelling</source>
+      </segment>
+    </unit>
+    <unit id="7684424666861162968">
+      <notes>
+        <note category="location">src/app/shared/project-gallery/project-gallery.html:32,34</note>
+      </notes>
+      <segment>
+        <source>Vorige referentie</source>
+      </segment>
+    </unit>
+    <unit id="6219604905576969376">
+      <notes>
+        <note category="location">src/app/shared/project-gallery/project-gallery.html:44,46</note>
+      </notes>
+      <segment>
+        <source>Volgende referentie</source>
+      </segment>
+    </unit>
+    <unit id="8258431784753139966">
+      <notes>
+        <note category="location">src/app/shared/project-gallery/project-gallery.html:69,72</note>
+        <note category="description">Gallery placeholder tile</note>
+      </notes>
+      <segment>
+        <source>MORE SOON...</source>
+      </segment>
+    </unit>
+    <unit id="349743369183083595">
+      <notes>
+        <note category="location">src/app/shared/social-links/social-links.html:8,10</note>
+      </notes>
+      <segment>
+        <source>Patrick Landuyt op LinkedIn</source>
+      </segment>
+    </unit>
+    <unit id="2600492480255632224">
+      <notes>
+        <note category="location">src/app/shared/social-links/social-links.html:24,26</note>
+      </notes>
+      <segment>
+        <source>Patrick Landuyt op Luxevastgoed</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

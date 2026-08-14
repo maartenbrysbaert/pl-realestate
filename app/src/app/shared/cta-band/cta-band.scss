@@ -1,0 +1,49 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.cta {
+  background: var(--c-navy);
+  color: var(--c-paper);
+  padding-block: var(--section-y-lg);
+}
+
+.cta__inner {
+  @include container;
+}
+
+.cta__title {
+  @include heading(var(--fs-h2));
+
+  margin-bottom: var(--space-md);
+}
+
+.cta__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+
+  p {
+    font-size: var(--fs-small);
+    font-style: italic;
+  }
+}
+
+.cta__button {
+  @include button;
+
+  min-width: 212px;
+}
+
+// The social icons invert against the navy band.
+app-social-links {
+  --icon-bg: var(--c-paper);
+
+  ::ng-deep a {
+    background: var(--c-paper);
+    color: var(--c-navy);
+  }
+}

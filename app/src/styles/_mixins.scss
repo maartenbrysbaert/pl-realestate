@@ -1,0 +1,96 @@
+@use 'tokens' as *;
+
+@mixin tablet {
+  @media (max-width: $bp-tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $bp-mobile) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: $bp-small) {
+    @content;
+  }
+}
+
+/// Page gutter. Every top-level section uses this so the left edge of the
+/// wordmark, the headings and the footer all line up on one vertical.
+///
+/// Never override `max-width` or `margin-inline` on an element using this - that
+/// breaks the centring and the block drifts away from the page's left rule on
+/// wide viewports. To narrow the text inside, use `measure` on a child instead.
+@mixin container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/// Caps line length inside a full-width container, keeping the block's left
+/// edge on the shared vertical.
+@mixin measure($width) {
+  max-width: $width;
+  margin-inline: 0;
+}
+
+/// The two-column "label left, prose right" layout used on /over and /diensten.
+/// Collapses to a single stacked column on tablet, as the original does.
+@mixin split($left: 5fr, $right: 7fr) {
+  display: grid;
+  grid-template-columns: $left $right;
+  gap: var(--space-md);
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+}
+
+@mixin heading($size: var(--fs-h4)) {
+  font-family: var(--font-heading);
+  font-size: $size;
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-heading);
+  margin: 0;
+}
+
+/// The site's only button style: solid stone fill, white uppercase-ish label.
+@mixin button {
+  display: inline-block;
+  padding: 0.85em 2.5em;
+  border: 0;
+  border-radius: 0;
+  background: var(--c-stone);
+  color: var(--c-paper);
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-action);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity var(--transition);
+
+  &:hover,
+  &:focus-visible {
+    opacity: 0.8;
+  }
+}
+
+/// Visually hidden but available to screen readers - used by the skip link
+/// and by form fields whose label is implied by the placeholder.
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

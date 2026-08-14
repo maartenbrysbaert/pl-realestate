@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="nl-BE" trgLang="fr-BE">
+  <file id="ngi18n" original="ng.template">
+    <unit id="2824719637004225478">
+      <segment>
+          <source>Verkoop van alle vastgoed</source>
+          <target>Vente de tous types de biens immobiliers</target>
+        </segment>
+    </unit>
+    <unit id="7356576328198945962">
+      <segment>
+          <source>Residentieel vastgoed:</source>
+          <target>Immobilier résidentiel :</target>
+        </segment>
+    </unit>
+    <unit id="8319761382592843561">
+      <segment>
+          <source>Gronden, appartementen, klassieke woningen &amp; exclusieve villa&apos;s, uitzonderlijk &amp; uniek vastgoed</source>
+          <target>Terrains, appartements, maisons classiques &amp; villas exclusives, biens d&apos;exception et uniques</target>
+        </segment>
+    </unit>
+    <unit id="7345881260792048214">
+      <segment>
+          <source>Investeringsvastgoed:</source>
+          <target>Immobilier d&apos;investissement :</target>
+        </segment>
+    </unit>
+    <unit id="1171838949603860494">
+      <segment>
+          <source>Projecten en verkavelingen</source>
+          <target>Projets et lotissements</target>
+        </segment>
+    </unit>
+    <unit id="3189588237461722809">
+      <segment>
+          <source>Bedrijfsvastgoed:</source>
+          <target>Immobilier d&apos;entreprise :</target>
+        </segment>
+    </unit>
+    <unit id="8826725499134716160">
+      <segment>
+          <source>Kantoren, loodsen, KMO-units, …</source>
+          <target>Bureaux, entrepôts, unités PME, …</target>
+        </segment>
+    </unit>
+    <unit id="4424033214697197694">
+      <segment>
+          <source>Commercieel vastgoed:</source>
+          <target>Immobilier commercial :</target>
+        </segment>
+    </unit>
+    <unit id="5087724586444508453">
+      <segment>
+          <source>Winkelruimtes, hotels, ...</source>
+          <target>Surfaces commerciales, hôtels, ...</target>
+        </segment>
+    </unit>
+    <unit id="1285168634706432483">
+      <segment>
+          <source>Discrete verkoop</source>
+          <target>Vente discrète</target>
+        </segment>
+    </unit>
+    <unit id="1281653455215013849">
+      <segment>
+          <source>Wenst u een &apos;stille&apos; verkoop, waarbij uw buren dit niet merken?</source>
+          <target>Vous souhaitez une vente « silencieuse », sans que vos voisins ne le remarquent ?</target>
+        </segment>
+    </unit>
+    <unit id="4121297178791162097">
+      <segment>
+          <source>Als géén ander hanteert Patrick Landuyt deze vruchtbare techniek en zorgt ervoor dat enkel de juiste kandidaten uw eigendom zullen bezoeken.</source>
+          <target>Mieux que quiconque, Patrick Landuyt maîtrise cette technique fructueuse et veille à ce que seuls les candidats appropriés visitent votre bien.</target>
+        </segment>
+    </unit>
+    <unit id="4020744163530883584">
+      <segment>
+          <source>Hierbij wordt Patrick Landuyt ondersteunt door een database van zoekende klanten en een uitgebreid netwerk, welke eveneens erg op hun discretie zijn gesteld.</source>
+          <target>Patrick Landuyt s&apos;appuie pour cela sur une base de données de clients en recherche et sur un vaste réseau, lui aussi très attaché à la discrétion.</target>
+        </segment>
+    </unit>
+    <unit id="5915188711544346826">
+      <segment>
+          <source>Een méést doorgedreven discrete vastgoedcommunicatie.</source>
+          <target>Une communication immobilière discrète poussée à son maximum.</target>
+        </segment>
+    </unit>
+    <unit id="857050756167998005">
+      <segment>
+          <source>Erkende schattingen - Pro evaluation</source>
+          <target>Estimations agréées - Pro evaluation</target>
+        </segment>
+    </unit>
+    <unit id="2682712982806285317">
+      <segment>
+          <source>Een professionele schatting gebeurt vanuit diverse invalshoeken, ervaring en marktkennis.</source>
+          <target>Une estimation professionnelle repose sur des angles d&apos;approche variés, sur l&apos;expérience et sur la connaissance du marché.</target>
+        </segment>
+    </unit>
+    <unit id="5758006783634241285">
+      <segment>
+          <source>We verzorgen multidisciplinaire &amp; erkende schattingen op basis van VLABEL-methodologie, KAVEX rekenmodellen, Stadim, …</source>
+          <target>Nous réalisons des estimations multidisciplinaires et agréées sur la base de la méthodologie VLABEL, des modèles de calcul KAVEX, de Stadim, …</target>
+        </segment>
+    </unit>
+    <unit id="61923593609641503">
+      <segment>
+          <source>SOS-Vastgoed</source>
+          <target>SOS-Immobilier</target>
+        </segment>
+    </unit>
+    <unit id="3017454823898994484">
+      <segment>
+          <source>Uw eigendom staat reeds te koop, maar verloopt dit niet naar wens? U bent niet tevreden omtrent de huidige begeleiding of vooropgestelde verwachtingen worden niet ingelost?</source>
+          <target>Votre bien est déjà en vente, mais cela ne se passe pas comme vous le souhaitez ? Vous n&apos;êtes pas satisfait de l&apos;accompagnement actuel ou les attentes annoncées ne sont pas rencontrées ?</target>
+        </segment>
+    </unit>
+    <unit id="5546605531103809078">
+      <segment>
+          <source>We herkennen deze situaties zeker en vast.</source>
+          <target>Ces situations nous sont tout à fait familières.</target>
+        </segment>
+    </unit>
+    <unit id="1930978926566415788">
+      <segment>
+          <source>Menige verkoopopdrachten hebben we overgenomen en tot een goed einde geleid. Referenties worden u ter beschikking gesteld.</source>
+          <target>Nous avons repris de nombreuses missions de vente et les avons menées à bien. Des références sont à votre disposition.</target>
+        </segment>
+    </unit>
+    <unit id="7660447918928760523">
+      <segment>
+          <source>PRO-advice</source>
+          <target>PRO-advice</target>
+        </segment>
+    </unit>
+    <unit id="1668518586717414774">
+      <segment>
+          <source>Uniek platform en samenwerkingsverbanden, waarbij advies en verkoopondersteuning wordt versterkt aan collega makelaars, landmeters, notarissen, bankiers en vermogensbeheerders, family offices, …</source>
+          <target>Une plateforme unique et des partenariats qui renforcent le conseil et le soutien à la vente auprès de confrères agents immobiliers, géomètres, notaires, banquiers et gestionnaires de patrimoine, family offices, …</target>
+        </segment>
+    </unit>
+    <unit id="4006031221254028970">
+      <segment>
+          <source>Tevens bieden we ondersteuning en oplossingen bij onverdeeldheid en vastgoedconflicten.</source>
+          <target>Nous proposons également un accompagnement et des solutions en cas d&apos;indivision et de conflits immobiliers.</target>
+        </segment>
+    </unit>
+    <unit id="5352154449814301772">
+      <segment>
+          <source>Share deals &amp; asset deals</source>
+          <target>Share deals &amp; asset deals</target>
+        </segment>
+    </unit>
+    <unit id="3855902992317379769">
+      <segment>
+          <source>Een klassieke verkoop onderworpen aan verkooprechten of registratierechten is het meest voorkomend.</source>
+          <target>La vente classique, soumise aux droits de vente ou d&apos;enregistrement, est la plus courante.</target>
+        </segment>
+    </unit>
+    <unit id="5867518853520034653">
+      <segment>
+          <source>Zit uw vastgoed echter in een vennootschap? Samen met u en uw accountant waarderen we de aandelen en berekenen we de latenties. Ook wordt er gezocht naar een koper voor de aandelen.</source>
+          <target>Votre bien est toutefois logé dans une société ? Avec vous et votre comptable, nous valorisons les actions et calculons les latences fiscales. Nous recherchons également un acquéreur pour les actions.</target>
+        </segment>
+    </unit>
+    <unit id="5528240340276837342">
+      <segment>
+          <source>Aankoopbegeleiding</source>
+          <target>Accompagnement à l&apos;achat</target>
+        </segment>
+    </unit>
+    <unit id="5410260558799112916">
+      <segment>
+          <source>U overweegt de aankoop van een eigendom?</source>
+          <target>Vous envisagez l&apos;achat d&apos;un bien ?</target>
+        </segment>
+    </unit>
+    <unit id="764209215620934996">
+      <segment>
+          <source>We verdedigen uw belangen als koper.</source>
+          <target>Nous défendons vos intérêts en tant qu&apos;acquéreur.</target>
+        </segment>
+    </unit>
+    <unit id="5428460205114988373">
+      <segment>
+          <source>We besparen u vele euro&apos;s &amp; kopzorgen!</source>
+          <target>Nous vous épargnons de nombreux euros et bien des soucis !</target>
+        </segment>
+    </unit>
+    <unit id="650758677043510870">
+      <segment>
+          <source>Voor een méér &quot;Op maat begeleidingspakket&quot;, verzoeken we u een kijkje te nemen op:</source>
+          <target>Pour une formule d&apos;accompagnement « sur mesure », nous vous invitons à consulter :</target>
+        </segment>
+    </unit>
+    <unit id="8579281221302447361">
+      <segment>
+          <source>Gratis homefinder: wij vinden uw droomwoning!</source>
+          <target>Homefinder gratuit : nous trouvons la maison de vos rêves !</target>
+        </segment>
+    </unit>
+    <unit id="2768415932521201260">
+      <segment>
+          <source>We helpen u bij het vinden van uw droomwoning.</source>
+          <target>Nous vous aidons à trouver la maison de vos rêves.</target>
+        </segment>
+    </unit>
+    <unit id="2717100038941789541">
+      <segment>
+          <source>De zoektocht naar uw ideale woning kan een ingewikkelde en lange zoektocht zijn. Het ene huis voldoet nét niet aan alle eisen en voor het andere bent u nét te laat. U wilt eigenlijk als eerste op de hoogte zijn en bericht krijgen wanneer uw droomwoning beschikbaar is.</source>
+          <target>La recherche du logement idéal peut être longue et compliquée. Une maison ne répond pas tout à fait à vos critères, et pour une autre vous arrivez tout juste trop tard. En réalité, vous voulez être le premier informé dès que la maison de vos rêves est disponible.</target>
+        </segment>
+    </unit>
+    <unit id="1035293282196822236">
+      <segment>
+          <source>Onze troef is het persoonlijke &amp; discrete karakter van onze begeleidingen. Als grondlegger van de PRO-SALE community beschikken we over een méést uitgebreid – en op maat aangepast - netwerk om eigendommen te vinden welke grotendeels nog niet via openbare kanalen te koop worden aangeboden.</source>
+          <target>Notre atout est le caractère personnel et discret de nos accompagnements. Fondateurs de la communauté PRO-SALE, nous disposons d&apos;un réseau des plus étendus – et adapté sur mesure – pour trouver des biens qui, pour la plupart, ne sont pas encore proposés à la vente par les canaux publics.</target>
+        </segment>
+    </unit>
+    <unit id="9155757813333725928">
+      <segment>
+          <source>We nodigen u uit na te denken hoe uw droomwoning eruit ziet, waar uw prioriteiten liggen en de criteria die ons hierbij zouden kunnen helpen. We toetsen dit dan af een onze interne checklisten.</source>
+          <target>Nous vous invitons à réfléchir à quoi ressemble la maison de vos rêves, à vos priorités et aux critères qui pourraient nous aider. Nous confrontons ensuite le tout à nos check-lists internes.</target>
+        </segment>
+    </unit>
+    <unit id="3422282814199751733">
+      <segment>
+          <source>Laat het ons weten via</source>
+          <target>Faites-le nous savoir via</target>
+        </segment>
+    </unit>
+    <unit id="4235045421646975855">
+      <segment>
+          <source>Kleinschalige projectontwikkeling</source>
+          <target>Développement de projets à petite échelle</target>
+        </segment>
+    </unit>
+    <unit id="4142395755320181848">
+      <segment>
+          <source>Heeft u bouwgrond of een renovatiepand welke eventueel in aanmerking komt voor herbestemming of projectontwikkeling?</source>
+          <target>Vous possédez un terrain à bâtir ou un bien à rénover susceptible de faire l&apos;objet d&apos;une reconversion ou d&apos;un développement de projet ?</target>
+        </segment>
+    </unit>
+    <unit id="7303850091528598766">
+      <segment>
+          <source>Via een haalbaarheidsstudie onderzoeken we de mogelijkheden en optimale winst of opbrengst.</source>
+          <target>Une étude de faisabilité nous permet d’examiner les possibilités ainsi que le bénéfice ou le rendement optimal.</target>
+        </segment>
+    </unit>
+    <unit id="8638878598209711199">
+      <segment>
+          <source>We leggen contacten met de diensten van de gemeenten of steden. We toetsen dit alles af bij bouwheren/ontwikkelaars.</source>
+          <target>Nous prenons contact avec les services communaux ou urbains et soumettons le tout à des maîtres d’ouvrage et promoteurs.</target>
+        </segment>
+    </unit>
+    <unit id="8630856080102296913">
+      <segment>
+          <source>Vermogen, optimalisatie &amp; successie</source>
+          <target>Patrimoine, optimisation &amp; succession</target>
+        </segment>
+    </unit>
+    <unit id="2928147460137718646">
+      <segment>
+          <source>Wij helpen je mee met het optimaliseren van je vermogen, zowel privé als professioneel. En hoe toekomstgericht geld te besparen of hoe een vastgoedverkoop zien in het kader van successie. Iedere klant krijgt een gratis introductie sessie.</source>
+          <target>Nous vous aidons à optimiser votre patrimoine, tant privé que professionnel : comment épargner en préparant l&apos;avenir, ou comment envisager une vente immobilière dans le cadre d&apos;une succession. Chaque client bénéficie d&apos;une séance d&apos;introduction gratuite.</target>
+        </segment>
+    </unit>
+    <unit id="2225089313017165850">
+      <segment>
+          <source>Private &amp; flex offices:</source>
+          <target>Bureaux privés &amp; flex :</target>
+        </segment>
+    </unit>
+    <unit id="7167143024565190814">
+      <segment>
+          <source>Wij zijn beschikbaar 24/24, 7/7.</source>
+          <target>Nous sommes disponibles 24h/24, 7j/7.</target>
+        </segment>
+    </unit>
+    <unit id="2047530427608946279">
+      <segment>
+          <source>Meer info</source>
+          <target>Plus d&apos;infos</target>
+        </segment>
+    </unit>
+    <unit id="4977134742164455668">
+      <segment>
+          <source>Doorgaan naar inhoud</source>
+          <target>Aller au contenu</target>
+        </segment>
+    </unit>
+    <unit id="2102825898069375693">
+      <segment>
+          <source>Menu</source>
+          <target>Menu</target>
+        </segment>
+    </unit>
+    <unit id="4935484294703377668">
+      <segment>
+          <source>Hoofdnavigatie</source>
+          <target>Navigation principale</target>
+        </segment>
+    </unit>
+    <unit id="2624226064809724288">
+      <segment>
+          <source>Over</source>
+          <target>À propos</target>
+        </segment>
+    </unit>
+    <unit id="2114302687343180890">
+      <segment>
+          <source>Diensten</source>
+          <target>Services</target>
+        </segment>
+    </unit>
+    <unit id="3254750300857685592">
+      <segment>
+          <source>Referenties</source>
+          <target>Références</target>
+        </segment>
+    </unit>
+    <unit id="7922989125096435449">
+      <segment>
+          <source>Contact</source>
+          <target>Contact</target>
+        </segment>
+    </unit>
+    <unit id="261993142158688022">
+      <segment>
+          <source>Contacteer ons</source>
+          <target>Contactez-nous</target>
+        </segment>
+    </unit>
+    <unit id="4505070338818967882">
+      <segment>
+          <source>Maatschappelijke zetel:</source>
+          <target>Siège social :</target>
+        </segment>
+    </unit>
+    <unit id="5088470611328742870">
+      <segment>
+          <source>Volg Patrick Landuyt op LinkedIn en Luxevastgoed:</source>
+          <target>Suivez Patrick Landuyt sur LinkedIn et Luxevastgoed :</target>
+        </segment>
+    </unit>
+    <unit id="4625502246390783726">
+      <segment>
+          <source>Verdere info</source>
+          <target>Informations complémentaires</target>
+        </segment>
+    </unit>
+    <unit id="1798991146770678770">
+      <segment>
+          <source>Zaakvoerder</source>
+          <target>Gérant</target>
+        </segment>
+    </unit>
+    <unit id="3940387495972688831">
+      <segment>
+          <source>Vastgoedmakelaar bemiddelaar</source>
+          <target>Agent immobilier intermédiaire</target>
+        </segment>
+    </unit>
+    <unit id="851565097298472013">
+      <segment>
+          <source>BIV erkenningsnummer voor Belgïe:</source>
+          <target>Numéro d&apos;agrément IPI pour la Belgique :</target>
+        </segment>
+    </unit>
+    <unit id="7220068666068151451">
+      <segment>
+          <source>Ondernemingsnummer:</source>
+          <target>Numéro d&apos;entreprise :</target>
+        </segment>
+    </unit>
+    <unit id="7684158887035521524">
+      <segment>
+          <source>BTW</source>
+          <target>TVA</target>
+        </segment>
+    </unit>
+    <unit id="8082800020687891764">
+      <segment>
+          <source>Derdenrekening:</source>
+          <target>Compte de tiers :</target>
+        </segment>
+    </unit>
+    <unit id="4785400436726697566">
+      <segment>
+          <source>BA &amp; Borgstelling:</source>
+          <target>RC &amp; cautionnement :</target>
+        </segment>
+    </unit>
+    <unit id="136113679378084325">
+      <segment>
+          <source> Onderworpen aan de deontologische code van het BIV, Beroepsinstituut van de Vastgoedmakelaars. </source>
+          <target>Soumis au code de déontologie de l&apos;IPI, Institut professionnel des agents immobiliers.</target>
+        </segment>
+    </unit>
+    <unit id="8711850313817829823">
+      <segment>
+          <source>Toezichthoudende autoriteit</source>
+          <target>Autorité de surveillance</target>
+        </segment>
+    </unit>
+    <unit id="2769305003039266362">
+      <segment>
+          <source>Deontologie &amp; Plichtenleer:</source>
+          <target>Déontologie :</target>
+        </segment>
+    </unit>
+    <unit id="4039704906828800414">
+      <segment>
+          <source>Als u deze site bezoekt, gaat u akkoord met de</source>
+          <target>En visitant ce site, vous acceptez les</target>
+        </segment>
+    </unit>
+    <unit id="6840139098211435781">
+      <segment>
+          <source>Algemene voorwaarden</source>
+          <target>Conditions générales</target>
+        </segment>
+    </unit>
+    <unit id="5885992084035129297">
+      <segment>
+          <source>Verzekering BA en borgstelling via NV AXA Belgium ( polis nr.730.390.160)</source>
+          <target>Assurance RC et cautionnement via NV AXA Belgium (police n° 730.390.160)</target>
+        </segment>
+    </unit>
+    <unit id="1584170996894075991">
+      <segment>
+          <source>Contact | PL Real Estate</source>
+          <target>Contact | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="8381255278769716613">
+      <segment>
+          <source>Neem contact op met Patrick Landuyt — Nazarethstraat 6, De Pinte. Bereikbaar 24/24, 7/7.</source>
+          <target>Contactez Patrick Landuyt — Nazarethstraat 6, De Pinte. Joignable 24h/24, 7j/7.</target>
+        </segment>
+    </unit>
+    <unit id="8212578364377120584">
+      <segment>
+          <source>Een gezin wandelt door een landschapstuin naar een oranjerie</source>
+          <target>Une famille traverse un jardin paysager en direction d’une orangerie</target>
+        </segment>
+    </unit>
+    <unit id="2133690754308869644">
+      <segment>
+          <source> U kan bij Patrick Landuyt terecht voor verscheidene diensten, waar expertise, ervaring en resultaat steeds garant staan. </source>
+          <target>Patrick Landuyt vous propose divers services, où l&apos;expertise, l&apos;expérience et le résultat sont toujours au rendez-vous.</target>
+        </segment>
+    </unit>
+    <unit id="1267483347674019437">
+      <segment>
+          <source>Diensten | PL Real Estate</source>
+          <target>Services | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="6348610037752534498">
+      <segment>
+          <source>Verkoop, discrete verkoop, erkende schattingen, aankoopbegeleiding, share deals en projectontwikkeling — waar expertise, ervaring en resultaat steeds garant staan.</source>
+          <target>Vente, vente discrète, estimations agréées, accompagnement à l&apos;achat, share deals et développement de projets — où l&apos;expertise, l&apos;expérience et le résultat sont toujours au rendez-vous.</target>
+        </segment>
+    </unit>
+    <unit id="5848677750370400621">
+      <segment>
+          <source>BEMIDDELING ZOALS HET MOET</source>
+          <target>UNE INTERMÉDIATION COMME IL SE DOIT</target>
+        </segment>
+    </unit>
+    <unit id="2419356026353457069">
+      <segment>
+          <source> “Niemand beheerst een danige variëteit in vastgoeddossiers als Patrick Landuyt. Over regio&apos;s heen overstijgen zijn aanpak en resultaten iedere aanwezige lokale expertise. Met een ongeziene empathie, focus en karakter weet hij verkoper én koper met elkander te verbinden” </source>
+          <target>« Personne ne maîtrise une telle variété de dossiers immobiliers que Patrick Landuyt. D&apos;une région à l&apos;autre, son approche et ses résultats dépassent toute expertise locale en place. Avec une empathie, une concentration et un caractère hors du commun, il parvient à rapprocher vendeur et acquéreur »</target>
+        </segment>
+    </unit>
+    <unit id="8821574155361434746">
+      <segment>
+          <source>(Referentie op aanvraag)</source>
+          <target>(Référence sur demande)</target>
+        </segment>
+    </unit>
+    <unit id="7605819962521424606">
+      <segment>
+          <source>PL Real Estate by Patrick Landuyt</source>
+          <target>PL Real Estate by Patrick Landuyt</target>
+        </segment>
+    </unit>
+    <unit id="6977951577944802800">
+      <segment>
+          <source>Bemiddeling zoals het moet. Discrete begeleiding van vastgoedtransacties in België, met meer dan 500 afgeronde opdrachten.</source>
+          <target>Une intermédiation comme il se doit. Accompagnement discret de transactions immobilières en Belgique, avec plus de 500 missions menées à bien.</target>
+        </segment>
+    </unit>
+    <unit id="7213352886216244812">
+      <segment>
+          <source>Pagina niet gevonden</source>
+          <target>Page introuvable</target>
+        </segment>
+    </unit>
+    <unit id="2656159435481715690">
+      <segment>
+          <source> De pagina die u zoekt bestaat niet of werd verplaatst. </source>
+          <target>La page que vous recherchez n&apos;existe pas ou a été déplacée.</target>
+        </segment>
+    </unit>
+    <unit id="1119170293406575687">
+      <segment>
+          <source>Terug naar de homepage</source>
+          <target>Retour à la page d&apos;accueil</target>
+        </segment>
+    </unit>
+    <unit id="6275543859068726677">
+      <segment>
+          <source>Pagina niet gevonden | PL Real Estate</source>
+          <target>Page introuvable | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="691074024278495421">
+      <segment>
+          <source>De pagina die u zoekt bestaat niet of werd verplaatst.</source>
+          <target>La page que vous recherchez n&apos;existe pas ou a été déplacée.</target>
+        </segment>
+    </unit>
+    <unit id="700528455992195282">
+      <segment>
+          <source> Grondlegger in het discreet begeleiden van vastgoedtransacties. </source>
+          <target>Pionnier de l&apos;accompagnement discret des transactions immobilières.</target>
+        </segment>
+    </unit>
+    <unit id="4065081080807134326">
+      <segment>
+          <source>Bemiddeling zoals het moet</source>
+          <target>Une intermédiation comme il se doit</target>
+        </segment>
+    </unit>
+    <unit id="3348579981528721528">
+      <segment>
+          <source> Opgestart in 2009 koos Patrick Landuyt de moeilijkste weg. In alle stilte, zonder borden of grote budgetten, maar met de hoogste eisen stellende aan zichzelf. Gedreven en innovatief in vastgoedcommunicatie &amp; verkoopstrategieën. Als een pragmatische doorzetter met een empathisch vermogen, een uitmuntend gevoel voor zintuiglijkheid en een ongeëvenaarde focus op elk dossier, klein of groot. Daardoor wist hij snel het vertrouwen te winnen van een vééleisend cliënteel. En wordt gerespecteerd door vele collega&apos;s in de vastgoedsector vanwege zijn voorbeeldfunctie en behaalde resultaten in soms zeer uitdagende verkoopdossiers. </source>
+          <target>Lancé en 2009, Patrick Landuyt a choisi la voie la plus difficile. En toute discrétion, sans panneaux ni gros budgets, mais avec les exigences les plus élevées envers lui-même. Passionné et innovant en matière de communication immobilière et de stratégies de vente. Persévérant et pragmatique, doté d&apos;une grande capacité d&apos;empathie, d&apos;un sens aigu du détail sensoriel et d&apos;une concentration inégalée sur chaque dossier, petit ou grand. Il a ainsi rapidement gagné la confiance d&apos;une clientèle très exigeante. Et il est respecté par de nombreux confrères du secteur immobilier pour son exemplarité et pour les résultats obtenus dans des dossiers de vente parfois très complexes.</target>
+        </segment>
+    </unit>
+    <unit id="4512708668601130417">
+      <segment>
+          <source>Onze klanten</source>
+          <target>Nos clients</target>
+        </segment>
+    </unit>
+    <unit id="7166848059275795975">
+      <segment>
+          <source> Ondernemers, bedrijfsleiders, kaderleden, vrije beroepers, zelfstandigen, … </source>
+          <target>Entrepreneurs, dirigeants d’entreprise, cadres, professions libérales, indépendants, …</target>
+        </segment>
+    </unit>
+    <unit id="7025800737143237400">
+      <segment>
+          <source>Allen die dagdagelijks het beste geven van zichzelf.</source>
+          <target>Tous ceux qui donnent chaque jour le meilleur d&apos;eux-mêmes.</target>
+        </segment>
+    </unit>
+    <unit id="885762601242795429">
+      <segment>
+          <source>Gegroeid vanuit mond-tot-mondreclame</source>
+          <target>Développé par le bouche-à-oreille</target>
+        </segment>
+    </unit>
+    <unit id="3534184655783687187">
+      <segment>
+          <source>Onze sociale meerwaarde</source>
+          <target>Notre valeur ajoutée sociale</target>
+        </segment>
+    </unit>
+    <unit id="8355551818109259591">
+      <segment>
+          <source> “De Geest wordt rijk door wat hij ontvangt, het Hart wordt rijk, door wat hij geeft, …” - Victor Hugo </source>
+          <target>« L&apos;Esprit s&apos;enrichit de ce qu&apos;il reçoit, le Cœur s&apos;enrichit de ce qu&apos;il donne, … » - Victor Hugo</target>
+        </segment>
+    </unit>
+    <unit id="1782430515744446933">
+      <segment>
+          <source> Naast onze professionele engagement bouwen we graag aan een sociale nalatenschap. </source>
+          <target>Au-delà de notre engagement professionnel, nous aimons construire un héritage social.</target>
+        </segment>
+    </unit>
+    <unit id="3269311648261633116">
+      <segment>
+          <source> We hebben de mogelijkheden, de mentale/fysieke gezondheid en de kracht om ons dagelijks in te mogen zetten. Dit is niet iedereen gegeven. Dit indachtig wordt jaarlijks een deel van onze resultaten voorbehouden aan sociale en menselijke doelen. </source>
+          <target>Nous avons les moyens, la santé mentale et physique ainsi que la force de nous investir au quotidien. Ce n&apos;est pas donné à tout le monde. Conscients de cela, nous réservons chaque année une partie de nos résultats à des causes sociales et humaines.</target>
+        </segment>
+    </unit>
+    <unit id="3470626012285100688">
+      <segment>
+          <source>Over Patrick Landuyt | PL Real Estate</source>
+          <target>À propos de Patrick Landuyt | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="3919868670087641171">
+      <segment>
+          <source>Grondlegger in het discreet begeleiden van vastgoedtransacties. Sinds 2009 bemiddeling zoals het moet, voor een vééleisend cliënteel.</source>
+          <target>Pionnier de l&apos;accompagnement discret des transactions immobilières. Depuis 2009, une intermédiation comme il se doit, pour une clientèle très exigeante.</target>
+        </segment>
+    </unit>
+    <unit id="8671562172031319285">
+      <segment>
+          <source> De slideshow geeft een aantal referenties weer van begeleide transacties, verkopen en adviesopdrachten. Een representatieve greep uit de +/- 500 opdrachten waarin we het vertrouwen mochten verdienen. </source>
+          <target>Le diaporama présente une sélection de références de transactions, de ventes et de missions de conseil accompagnées. Un échantillon représentatif des quelque 500 missions pour lesquelles nous avons mérité la confiance de nos clients.</target>
+        </segment>
+    </unit>
+    <unit id="605471870189647579">
+      <segment>
+          <source> Discretie is één van onze uitgangspunten, met als doel vertrouwen en gemoedsrust te creëren. Op aanvraag geven we u graag onze échte referenties. </source>
+          <target>La discrétion est l&apos;un de nos principes fondamentaux, afin de créer confiance et sérénité. Sur demande, nous vous communiquons volontiers nos véritables références.</target>
+        </segment>
+    </unit>
+    <unit id="2730453391220205608">
+      <segment>
+          <source>Referenties | PL Real Estate</source>
+          <target>Références | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="1294474362055205269">
+      <segment>
+          <source>Een representatieve greep uit de +/- 500 begeleide transacties, verkopen en adviesopdrachten van PL Real Estate.</source>
+          <target>Un échantillon représentatif des quelque 500 transactions, ventes et missions de conseil accompagnées par PL Real Estate.</target>
+        </segment>
+    </unit>
+    <unit id="3387422732252707037">
+      <segment>
+          <source>GDPR</source>
+          <target>RGPD</target>
+        </segment>
+    </unit>
+    <unit id="8440128775129354214">
+      <segment>
+          <source>Privacy</source>
+          <target>Vie privée</target>
+        </segment>
+    </unit>
+    <unit id="1753713469555143858">
+      <segment>
+          <source> Immophone-Partners verwerkt persoonsgegevens overeenkomstig deze privacyverklaring. Voor verdere informatie, vragen of opmerkingen omtrent ons privacy beleid, kunt u terecht op www.immophone&amp;Partners.be en via info@immophone-partners.be </source>
+          <target>Immophone-Partners traite les données à caractère personnel conformément à la présente déclaration de confidentialité. Pour toute information complémentaire, question ou remarque concernant notre politique de confidentialité, vous pouvez consulter www.immophone&amp;Partners.be ou écrire à info@immophone-partners.be</target>
+        </segment>
+    </unit>
+    <unit id="3483553546458955813">
+      <segment>
+          <source>Verwerkingsdoeleinden</source>
+          <target>Finalités du traitement</target>
+        </segment>
+    </unit>
+    <unit id="126523943370994542">
+      <segment>
+          <source> Immophone-Partners verzamelt en verwerkt de persoonsgegevens van klanten voor klantenbeheer (o.a. klantenadministratie, georganiseerde bezoeken, wettelijke rapportering naar opdrachtgevers en het verzenden van marketing mails in de vorm van gepersonaliseerde matching mailings). </source>
+          <target>Immophone-Partners collecte et traite les données à caractère personnel des clients à des fins de gestion de la clientèle (notamment l&apos;administration des clients, les visites organisées, le reporting légal aux donneurs d&apos;ordre et l&apos;envoi de courriels marketing sous la forme de mailings de correspondance personnalisés).</target>
+        </segment>
+    </unit>
+    <unit id="3449679380341947868">
+      <segment>
+          <source> Hieronder vindt u een overzicht van de verzamelde gegevens: </source>
+          <target>Vous trouverez ci-dessous un aperçu des données collectées :</target>
+        </segment>
+    </unit>
+    <unit id="7079956219038610713">
+      <segment>
+          <source>Voor- en achternaam</source>
+          <target>Nom et prénom</target>
+        </segment>
+    </unit>
+    <unit id="1956201792872193223">
+      <segment>
+          <source>E-mailadres</source>
+          <target>Adresse e-mail</target>
+        </segment>
+    </unit>
+    <unit id="752475410512539383">
+      <segment>
+          <source>Adresgegevens</source>
+          <target>Coordonnées postales</target>
+        </segment>
+    </unit>
+    <unit id="6873549325688386846">
+      <segment>
+          <source>Geslacht</source>
+          <target>Sexe</target>
+        </segment>
+    </unit>
+    <unit id="6114976750145007862">
+      <segment>
+          <source>Telefoonnummer</source>
+          <target>Numéro de téléphone</target>
+        </segment>
+    </unit>
+    <unit id="3235796904077668795">
+      <segment>
+          <source>GSM nummer</source>
+          <target>Numéro de GSM</target>
+        </segment>
+    </unit>
+    <unit id="3328255063844405341">
+      <segment>
+          <source>IP-adres</source>
+          <target>Adresse IP</target>
+        </segment>
+    </unit>
+    <unit id="2515936421162061468">
+      <segment>
+          <source>Rechtsgrond(en) van de verwerking</source>
+          <target>Base(s) juridique(s) du traitement</target>
+        </segment>
+    </unit>
+    <unit id="1302415204734038492">
+      <segment>
+          <source>Persoonsgegevens worden verwerkt op basis van artikel 6.1.</source>
+          <target>Les données à caractère personnel sont traitées sur la base de l&apos;article 6.1.</target>
+        </segment>
+    </unit>
+    <unit id="5126577623436900088">
+      <segment>
+          <source>(a) toestemming,</source>
+          <target>(a) consentement,</target>
+        </segment>
+    </unit>
+    <unit id="2652859067268368514">
+      <segment>
+          <source>(b) noodzakelijk voor de uitvoering van een overeenkomst</source>
+          <target>(b) nécessaire à l&apos;exécution d&apos;un contrat</target>
+        </segment>
+    </unit>
+    <unit id="8919528560156231271">
+      <segment>
+          <source>(c) noodzakelijk om te voldoen aan een wettelijke verplichting</source>
+          <target>(c) nécessaire au respect d’une obligation légale</target>
+        </segment>
+    </unit>
+    <unit id="6510146852161010220">
+      <segment>
+          <source> (f) noodzakelijk voor de behartiging van onze gerechtvaardigde belang om te ondernemen </source>
+          <target>(f) nécessaire à la poursuite de notre intérêt légitime à entreprendre</target>
+        </segment>
+    </unit>
+    <unit id="3216348405008610920">
+      <segment>
+          <source>van de Algemene Verordening Gegevensbescherming.</source>
+          <target>du Règlement général sur la protection des données.</target>
+        </segment>
+    </unit>
+    <unit id="6157301068036028278">
+      <segment>
+          <source> In zoverre de verwerking van de persoonsgegevens plaatsvindt op basis van artikel 6.1. a) toestemming, heeft de klant steeds het recht om de gegeven toestemming terug in te trekken. </source>
+          <target>Dans la mesure où le traitement des données à caractère personnel repose sur l&apos;article 6.1. a) consentement, le client a toujours le droit de retirer le consentement donné.</target>
+        </segment>
+    </unit>
+    <unit id="3628429885436212576">
+      <segment>
+          <source>Overmaken aan derden</source>
+          <target>Transmission à des tiers</target>
+        </segment>
+    </unit>
+    <unit id="5520704218812815828">
+      <segment>
+          <source> Indien dit noodzakelijk is ter verwezenlijking van de vooropgestelde doeleinden, zullen de persoonsgegevens van de klant worden gedeeld met andere vennootschappen (van de Immophone&amp;Partners groep) binnen de Europese Economische Ruimte die rechtstreeks of onrechtstreeks met Immophone-Partners verbonden zijn of met enige andere partner van Immophone-Partners groep) Immophone-Partners garandeert dat deze ontvangers de nodige technische en organisatorische maatregelen zullen nemen ter bescherming van de persoonsgegevens. </source>
+          <target>Si cela s&apos;avère nécessaire à la réalisation des finalités précitées, les données à caractère personnel du client seront partagées avec d&apos;autres sociétés (du groupe Immophone&amp;Partners) au sein de l&apos;Espace économique européen, liées directement ou indirectement à Immophone-Partners, ou avec tout autre partenaire du groupe Immophone-Partners. Immophone-Partners garantit que ces destinataires prendront les mesures techniques et organisationnelles nécessaires à la protection des données à caractère personnel.</target>
+        </segment>
+    </unit>
+    <unit id="6468989323114229167">
+      <segment>
+          <source>Bewaarperiode</source>
+          <target>Durée de conservation</target>
+        </segment>
+    </unit>
+    <unit id="5172812945278281520">
+      <segment>
+          <source> De persoonsgegevens verwerkt voor klantenbeheer zullen worden bewaard gedurende de termijn die noodzakelijk is om aan de wettelijke vereisten te voldoen (onder andere op het gebied van boekhouding). </source>
+          <target>Les données à caractère personnel traitées à des fins de gestion de la clientèle seront conservées pendant la durée nécessaire au respect des obligations légales (notamment en matière comptable).</target>
+        </segment>
+    </unit>
+    <unit id="3075859353634662579">
+      <segment>
+          <source> Recht van inzage, verbetering, wissen, beperking, bezwaar en overdraagbaarheid van de persoonsgegevens </source>
+          <target>Droit d&apos;accès, de rectification, d&apos;effacement, de limitation, d&apos;opposition et de portabilité des données à caractère personnel</target>
+        </segment>
+    </unit>
+    <unit id="150371939714696258">
+      <segment>
+          <source> De klant heeft te allen tijde recht op inzage van zijn persoonsgegevens en kan ze (laten) verbeteren indien ze onjuist of onvolledig zijn, ze laten verwijderen, de verwerking ervan laten beperken en bezwaar te maken tegen de verwerking van hem betreffende persoonsgegevens op basis van artikel 6.1 (f). </source>
+          <target>Le client a à tout moment le droit d&apos;accéder à ses données à caractère personnel et peut les (faire) rectifier si elles sont inexactes ou incomplètes, les faire effacer, en faire limiter le traitement et s&apos;opposer au traitement des données à caractère personnel le concernant sur la base de l&apos;article 6.1 (f).</target>
+        </segment>
+    </unit>
+    <unit id="1374118202820507297">
+      <segment>
+          <source> Bovendien, heeft de klant het recht om een kopie (in een gestructureerde, gangbare en machinaal leesbare vorm) van zijn persoonsgegevens te bekomen en de persoonsgegevens te laten doorsturen naar een andere vennootschap. </source>
+          <target>En outre, le client a le droit d&apos;obtenir une copie (sous une forme structurée, couramment utilisée et lisible par machine) de ses données à caractère personnel et de les faire transmettre à une autre société.</target>
+        </segment>
+    </unit>
+    <unit id="3775385524113795275">
+      <segment>
+          <source> Teneinde bovenvermelde rechten uit te oefenen, wordt de klant gevraagd om een van volgende stappen te ondernemen: </source>
+          <target>Afin d’exercer les droits précités, le client est invité à effectuer l’une des démarches suivantes :</target>
+        </segment>
+    </unit>
+    <unit id="67697517617190249">
+      <segment>
+          <source>zelf de instellingen van zijn klant account aan te passen;</source>
+          <target>modifier lui-même les paramètres de son compte client ;</target>
+        </segment>
+    </unit>
+    <unit id="1290337552400190358">
+      <segment>
+          <source> een e-mail te verzenden naar het volgende e-mailadres: info@immophone-partners.be </source>
+          <target>envoyer un e-mail à l&apos;adresse suivante : info@immophone-partners.be</target>
+        </segment>
+    </unit>
+    <unit id="8247136782694029523">
+      <segment>
+          <source> een brief te richten aan Immophone-partners, Nazarethstraat 6 te 9840 De Pinte </source>
+          <target>adresser un courrier à Immophone-partners, Nazarethstraat 6, 9840 De Pinte</target>
+        </segment>
+    </unit>
+    <unit id="3081472148419215673">
+      <segment>
+          <source>Direct marketing</source>
+          <target>Marketing direct</target>
+        </segment>
+    </unit>
+    <unit id="2911991515888637660">
+      <segment>
+          <source> De klant heeft het recht zich kosteloos te verzetten tegen elke verwerking van zijn persoonsgegevens met het oog op direct marketing. </source>
+          <target>Le client a le droit de s&apos;opposer gratuitement à tout traitement de ses données à caractère personnel à des fins de marketing direct.</target>
+        </segment>
+    </unit>
+    <unit id="1680766934750596766">
+      <segment>
+          <source>Klacht</source>
+          <target>Réclamation</target>
+        </segment>
+    </unit>
+    <unit id="741762569619545330">
+      <segment>
+          <source> De Klant beschikt over het recht om een klacht in te dienen bij de Commissie voor de Bescherming van de Persoonlijke Levenssfeer (Drukpersstraat 35, 1000 Brussel - commission@privacycommission.be). </source>
+          <target>Le Client dispose du droit d&apos;introduire une réclamation auprès de la Commission de la protection de la vie privée (rue de la Presse 35, 1000 Bruxelles - commission@privacycommission.be).</target>
+        </segment>
+    </unit>
+    <unit id="2104072033747255147">
+      <segment>
+          <source>Cookieverklaring</source>
+          <target>Déclaration relative aux cookies</target>
+        </segment>
+    </unit>
+    <unit id="8438226787988716856">
+      <segment>
+          <source> Immophone-partners groep bevestigd géén gebruik te maken van cookies. </source>
+          <target>Le groupe Immophone-partners confirme n&apos;utiliser aucun cookie.</target>
+        </segment>
+    </unit>
+    <unit id="7830917335993271586">
+      <segment>
+          <source>Voorwaarden</source>
+          <target>Conditions</target>
+        </segment>
+    </unit>
+    <unit id="3429591513264222657">
+      <segment>
+          <source> Uw gebruik van de site “www.immophone-partners.be” houdt in dat u de volgende gebruiksvoorwaarden integraal aanvaardt. </source>
+          <target>Votre utilisation du site « www.immophone-partners.be » implique que vous acceptez intégralement les conditions d&apos;utilisation suivantes.</target>
+        </segment>
+    </unit>
+    <unit id="913721761961592495">
+      <segment>
+          <source>Betrouwbaarheid van de informatie op de site</source>
+          <target>Fiabilité des informations figurant sur le site</target>
+        </segment>
+    </unit>
+    <unit id="1284091202250907761">
+      <segment>
+          <source> Op onze site informeren wij u op geheel vrijblijvende wijze. Deze gegevens worden u geheel ter informatie aangeboden en wij kunnen u dus niet garanderen dat de informatie betrouwbaar, volledig en pertinent is. Wij bevelen u bijgevolg aan een beroep te doen op betrouwbare professionele adviseurs (vastgoedmakelaars, experts, architecten, advocaten, notarissen, fiscalisten of andere) alvorens een beslissing te nemen in verband met één of ander aspect van uw onroerende goederen. Wij doen al het mogelijke om op de “Immophone-partners” makelaars-site betrouwbare en regelmatig geüpdate vastgoedinformatie ter beschikking te stellen. De website kan echter niet verantwoordelijk gesteld worden voor eventuele fouten in de informatie. Wij raden u bijgevolg ten stelligste aan om, voordat u eender welke beslissing neemt (aankoop, huur,...) omtrent het vastgoed, zelf de juistheid van de informatie en de beschikbaarheid van het vastgoed na te gaan door contact met ons op te nemen. </source>
+          <target>Sur notre site, nous vous informons à titre purement indicatif. Ces données vous sont fournies uniquement à titre d&apos;information et nous ne pouvons donc pas garantir qu&apos;elles soient fiables, complètes et pertinentes. Nous vous recommandons dès lors de faire appel à des conseillers professionnels fiables (agents immobiliers, experts, architectes, avocats, notaires, fiscalistes ou autres) avant de prendre une décision concernant l&apos;un ou l&apos;autre aspect de vos biens immobiliers. Nous mettons tout en œuvre pour mettre à disposition, sur le site de courtage « Immophone-partners », des informations immobilières fiables et régulièrement mises à jour. Le site web ne peut toutefois être tenu responsable d&apos;éventuelles erreurs dans les informations. Nous vous conseillons dès lors vivement, avant de prendre quelque décision que ce soit (achat, location, ...) concernant le bien, de vérifier vous-même l&apos;exactitude des informations et la disponibilité du bien en prenant contact avec nous.</target>
+        </segment>
+    </unit>
+    <unit id="5477786543985609285">
+      <segment>
+          <source>Beschikbaarheid van de site</source>
+          <target>Disponibilité du site</target>
+        </segment>
+    </unit>
+    <unit id="9034275522089315582">
+      <segment>
+          <source> Hoewel wij ons inzetten om de &quot;Immophone-partners” makelaars-site 7 dagen op 7 en 24 uur op 24 ter beschikking te stellen, behouden wij ons het recht om op elk moment en zonder voorafgaande waarschuwing, de toegang tot de site te onderbreken om technische redenen of andere. Wij behoudens ons eveneens het recht onze diensten te beëindigen. Dit zonder dat we kunnen verantwoordelijk gehouden worden voor deze onderbrekingen en de mogelijke gevolgen hiervan voor u of een derde. </source>
+          <target>Bien que nous nous efforcions de rendre le site de courtage « Immophone-partners » accessible 7 jours sur 7 et 24 heures sur 24, nous nous réservons le droit d&apos;interrompre à tout moment et sans avertissement préalable l&apos;accès au site pour des raisons techniques ou autres. Nous nous réservons également le droit de mettre fin à nos services. Ceci sans que nous puissions être tenus responsables de ces interruptions ni de leurs conséquences éventuelles pour vous ou pour un tiers.</target>
+        </segment>
+    </unit>
+    <unit id="2258740501221248766">
+      <segment>
+          <source>Toegangsverbod tot de site</source>
+          <target>Interdiction d&apos;accès au site</target>
+        </segment>
+    </unit>
+    <unit id="5908082031682265344">
+      <segment>
+          <source> Wij behouden ons het recht eenzijdig de toegang te verbieden tot heel de site of een gedeelte ervan voor elke fysieke of rechtspersoon: </source>
+          <target>Nous nous réservons le droit d&apos;interdire unilatéralement l&apos;accès à tout ou partie du site à toute personne physique ou morale :</target>
+        </segment>
+    </unit>
+    <unit id="4804103535723444973">
+      <segment>
+          <source>die deze gebruiksvoorwaarden zou overtreden</source>
+          <target>qui enfreindrait les présentes conditions d&apos;utilisation</target>
+        </segment>
+    </unit>
+    <unit id="3427494000694102967">
+      <segment>
+          <source> die op de één of andere manier de goede reputatie van de site zou aantasten </source>
+          <target>qui porterait atteinte, d&apos;une manière ou d&apos;une autre, à la bonne réputation du site</target>
+        </segment>
+    </unit>
+    <unit id="9181360441261448306">
+      <segment>
+          <source>die inbreuk zou plegen op de intellectuele rechten van derden</source>
+          <target>qui porterait atteinte aux droits intellectuels de tiers</target>
+        </segment>
+    </unit>
+    <unit id="1884342838925773742">
+      <segment>
+          <source>die de site zou aanwenden voor onwettige doeleinden</source>
+          <target>qui utiliserait le site à des fins illicites</target>
+        </segment>
+    </unit>
+    <unit id="5491334507958432317">
+      <segment>
+          <source> Wij behouden ons eveneens het recht om diezelfde personen gerechtelijk te vervolgen. </source>
+          <target>Nous nous réservons également le droit de poursuivre ces mêmes personnes en justice.</target>
+        </segment>
+    </unit>
+    <unit id="4248119867406570757">
+      <segment>
+          <source>Wet van toepassing en rechtspraak</source>
+          <target>Droit applicable et juridiction</target>
+        </segment>
+    </unit>
+    <unit id="820336749689352131">
+      <segment>
+          <source> Voor elk eventueel geschil dat voortvloeit uit het gebruik van de “Immophone-partners” makelaars-site is de Belgische wet van toepassing, en enkel de Belgische rechtbanken zijn bevoegd. </source>
+          <target>Tout litige éventuel découlant de l&apos;utilisation du site de courtage « Immophone-partners » est régi par le droit belge, et seuls les tribunaux belges sont compétents.</target>
+        </segment>
+    </unit>
+    <unit id="1449299707739440248">
+      <segment>
+          <source>Bescherming van intellectuele rechten</source>
+          <target>Protection des droits intellectuels</target>
+        </segment>
+    </unit>
+    <unit id="8940442328876062037">
+      <segment>
+          <source> Het logo, evenals de bedrijfsnaam van Immophone-Partners behoren tot diens eigen auteursrecht en mogen onder geen beding worden gereproduceerd of weergegeven zonder toestemming van Immophone-partners. </source>
+          <target>Le logo ainsi que la dénomination sociale d&apos;Immophone-Partners relèvent de son propre droit d&apos;auteur et ne peuvent en aucun cas être reproduits ou représentés sans l&apos;autorisation d&apos;Immophone-partners.</target>
+        </segment>
+    </unit>
+    <unit id="1745408025656170450">
+      <segment>
+          <source> De aanwezigheid van andere handelsnamen of merknamen of de website van Immophone-partners, geschiedt na uitdrukkelijke toestemming van de rechthebbenden daarop. </source>
+          <target>La présence d&apos;autres noms commerciaux ou de marques sur le site web d&apos;Immophone-partners intervient après autorisation expresse de leurs ayants droit.</target>
+        </segment>
+    </unit>
+    <unit id="8115706845311625911">
+      <segment>
+          <source> Immophone-partners draagt niettemin geen enkele aansprakelijkheid voor de aanwezigheid van informatie op haar website die mogelijks een inbreuk zouden plegen op intellectuele rechten van derden. </source>
+          <target>Immophone-partners n&apos;assume néanmoins aucune responsabilité quant à la présence, sur son site web, d&apos;informations susceptibles de porter atteinte aux droits intellectuels de tiers.</target>
+        </segment>
+    </unit>
+    <unit id="6270437825959299004">
+      <segment>
+          <source> Partijen die menen dat hun intellectuele rechten werden geschonden door een niet toegelaten gebruik van hun werk op de website van Immophone-partners, worden vriendelijk uitgenodigd hiervan ten spoedigste Immophone-partners in kennis te stellen, welke alsdan het nodige zal doen om het inbreukmakend materiaal minstens tijdelijk van de website te verwijderen. </source>
+          <target>Les parties qui estiment que leurs droits intellectuels ont été violés par une utilisation non autorisée de leur œuvre sur le site web d&apos;Immophone-partners sont aimablement invitées à en informer Immophone-partners dans les meilleurs délais ; celle-ci fera alors le nécessaire pour retirer, au moins temporairement, le matériel litigieux du site web.</target>
+        </segment>
+    </unit>
+    <unit id="2493187787288546697">
+      <segment>
+          <source> Informatie verplichting (Europese AVG-Richtlijn 2016/679 in voege vanaf 25 mei 2018) </source>
+          <target>Obligation d’information (Règlement européen RGPD 2016/679, en vigueur depuis le 25 mai 2018)</target>
+        </segment>
+    </unit>
+    <unit id="4381188749288822303">
+      <segment>
+          <source> Ons algemeen beleid op het vlak van gegevensbescherming vindt u terug onder de link Privacy. U hebt het recht om uw gegevens in te zien, te verbeteren en in bepaalde omstandigheden te laten wissen. Als u het niet eens bent met de manier waarop wij uw gegevens verwerken, gelieve u te wenden tot de Gegevensbeschermingsautoriteit (www.privacycommission.be – Drukpersstraat 35 te 1000 Brussel). </source>
+          <target>Notre politique générale en matière de protection des données figure sous le lien Vie privée. Vous avez le droit de consulter vos données, de les rectifier et, dans certaines circonstances, de les faire effacer. Si vous n&apos;êtes pas d&apos;accord avec la manière dont nous traitons vos données, veuillez vous adresser à l&apos;Autorité de protection des données (www.privacycommission.be – rue de la Presse 35, 1000 Bruxelles).</target>
+        </segment>
+    </unit>
+    <unit id="6951416800444725903">
+      <segment>
+          <source>Algemene voorwaarden | PL Real Estate</source>
+          <target>Conditions générales | PL Real Estate</target>
+        </segment>
+    </unit>
+    <unit id="7659784520987759409">
+      <segment>
+          <source>Privacyverklaring, cookieverklaring en gebruiksvoorwaarden van PL Real Estate.</source>
+          <target>Déclaration de confidentialité, déclaration relative aux cookies et conditions d&apos;utilisation de PL Real Estate.</target>
+        </segment>
+    </unit>
+    <unit id="8587732191115859424">
+      <segment>
+          <source>Naam</source>
+          <target>Nom</target>
+        </segment>
+    </unit>
+    <unit id="6332857723247326011">
+      <segment>
+          <source>Vul uw naam in.</source>
+          <target>Veuillez indiquer votre nom.</target>
+        </segment>
+    </unit>
+    <unit id="1890300073702152532">
+      <segment>
+          <source>E-mail</source>
+          <target>E-mail</target>
+        </segment>
+    </unit>
+    <unit id="4288079899151728630">
+      <segment>
+          <source>Vul een geldig e-mailadres in.</source>
+          <target>Veuillez indiquer une adresse e-mail valide.</target>
+        </segment>
+    </unit>
+    <unit id="1062929830599253429">
+      <segment>
+          <source>Onderwerp</source>
+          <target>Objet</target>
+        </segment>
+    </unit>
+    <unit id="6948263535749335849">
+      <segment>
+          <source>Bericht</source>
+          <target>Message</target>
+        </segment>
+    </unit>
+    <unit id="2966813519132800719">
+      <segment>
+          <source>Vul uw bericht in.</source>
+          <target>Veuillez saisir votre message.</target>
+        </segment>
+    </unit>
+    <unit id="8120519818858651657">
+      <segment>
+          <source>Verzenden…</source>
+          <target>Envoi en cours…</target>
+        </segment>
+    </unit>
+    <unit id="4030353278332240156">
+      <segment>
+          <source>Verzenden</source>
+          <target>Envoyer</target>
+        </segment>
+    </unit>
+    <unit id="2589092942116593943">
+      <segment>
+          <source>Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.</source>
+          <target>Merci pour votre message. Nous vous recontacterons dans les plus brefs délais.</target>
+        </segment>
+    </unit>
+    <unit id="4267108926787703611">
+      <segment>
+          <source>Er ging iets mis bij het verzenden. Probeer het opnieuw of bel ons rechtstreeks.</source>
+          <target>Une erreur s&apos;est produite lors de l&apos;envoi. Veuillez réessayer ou nous appeler directement.</target>
+        </segment>
+    </unit>
+    <unit id="4544982108855797081">
+      <segment>
+          <source>Samen aan de slag?</source>
+          <target>On travaille ensemble ?</target>
+        </segment>
+    </unit>
+    <unit id="2658314346886800319">
+      <segment>
+          <source> Benieuwd wat ik voor u kan betekenen of voor een kort gratis advies: </source>
+          <target>Curieux de savoir ce que je peux faire pour vous, ou pour un bref conseil gratuit :</target>
+        </segment>
+    </unit>
+    <unit id="252063439024126322">
+      <segment>
+          <source> Volg Patrick Landuyt op LinkedIn en Luxevastgoed: </source>
+          <target>Suivez Patrick Landuyt sur LinkedIn et Luxevastgoed :</target>
+        </segment>
+    </unit>
+    <unit id="530255640747572589">
+      <segment>
+          <source>Referenties diavoorstelling</source>
+          <target>Diaporama des références</target>
+        </segment>
+    </unit>
+    <unit id="7684424666861162968">
+      <segment>
+          <source>Vorige referentie</source>
+          <target>Référence précédente</target>
+        </segment>
+    </unit>
+    <unit id="6219604905576969376">
+      <segment>
+          <source>Volgende referentie</source>
+          <target>Référence suivante</target>
+        </segment>
+    </unit>
+    <unit id="8258431784753139966">
+      <segment>
+          <source>MORE SOON...</source>
+          <target>BIENTÔT PLUS...</target>
+        </segment>
+    </unit>
+    <unit id="349743369183083595">
+      <segment>
+          <source>Patrick Landuyt op LinkedIn</source>
+          <target>Patrick Landuyt sur LinkedIn</target>
+        </segment>
+    </unit>
+    <unit id="2600492480255632224">
+      <segment>
+          <source>Patrick Landuyt op Luxevastgoed</source>
+          <target>Patrick Landuyt sur Luxevastgoed</target>
+        </segment>
+    </unit>
+  </file>
+</xliff>

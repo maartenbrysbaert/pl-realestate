@@ -1,0 +1,77 @@
+@if (mode() === 'slideshow') {
+  <div class="slideshow">
+    <div
+      class="slideshow__stage"
+      role="region"
+      i18n-aria-label
+      aria-label="Referenties diavoorstelling"
+      aria-roledescription="carousel"
+    >
+      @for (project of projects(); track project.slug; let i = $index) {
+        <figure class="slide" [class.slide--active]="i === index()" [attr.aria-hidden]="i !== index()">
+          @if (mounted().has(i)) {
+            <img
+              [ngSrc]="src(project, 1200)"
+              [ngSrcset]="srcset(project)"
+              [width]="project.width"
+              [height]="project.height"
+              [priority]="i === 0"
+              sizes="100vw"
+              [alt]="caption(project)"
+            />
+          }
+        </figure>
+      }
+    </div>
+
+    <div class="slideshow__bar">
+      <button
+        class="slideshow__nav"
+        type="button"
+        (click)="previous()"
+        i18n-aria-label
+        aria-label="Vorige referentie"
+      >
+        <span aria-hidden="true">&#8592;</span>
+      </button>
+
+      <p class="slideshow__caption" aria-live="polite">{{ caption(current()) }}</p>
+
+      <button
+        class="slideshow__nav"
+        type="button"
+        (click)="next()"
+        i18n-aria-label
+        aria-label="Volgende referentie"
+      >
+        <span aria-hidden="true">&#8594;</span>
+      </button>
+    </div>
+  </div>
+} @else {
+  <ul class="grid">
+    @for (project of projects(); track project.slug) {
+      <li class="tile">
+        <!-- Plain img on purpose - see srcsetUrls() for why NgOptimizedImage is
+             the wrong tool for a long list of lazy tiles. -->
+        <img
+          [src]="src(project, 480)"
+          [srcset]="srcsetUrls(project)"
+          [width]="project.width"
+          [height]="project.height"
+          loading="lazy"
+          decoding="async"
+          sizes="(max-width: 767px) 50vw, (max-width: 991px) 33vw, 33vw"
+          [alt]="caption(project)"
+        />
+        <p class="tile__caption">{{ caption(project) }}</p>
+      </li>
+    }
+
+    @if (showPlaceholder()) {
+      <li class="tile tile--placeholder">
+        <div class="tile__soon"><span i18n="Gallery placeholder tile">MORE SOON...</span></div>
+      </li>
+    }
+  </ul>
+}

@@ -1,0 +1,80 @@
+<form class="form" [formGroup]="form" (ngSubmit)="submit()" novalidate>
+  <!-- Mirrors public/__forms.html so a no-JS submit still reaches Netlify. -->
+  <input type="hidden" name="form-name" value="contact" />
+
+  <p class="form__honeypot" aria-hidden="true">
+    <label>
+      Bot field
+      <input type="text" formControlName="bot-field" tabindex="-1" autocomplete="off" />
+    </label>
+  </p>
+
+  <div class="field">
+    <label for="naam" i18n="Contact form field label">Naam</label>
+    <input
+      id="naam"
+      type="text"
+      formControlName="naam"
+      autocomplete="name"
+      required
+      [attr.aria-invalid]="invalid('naam') || null"
+    />
+    @if (invalid('naam')) {
+      <p class="field__error" i18n="Contact form validation">Vul uw naam in.</p>
+    }
+  </div>
+
+  <div class="field">
+    <label for="email" i18n="Contact form field label">E-mail</label>
+    <input
+      id="email"
+      type="email"
+      formControlName="email"
+      autocomplete="email"
+      required
+      [attr.aria-invalid]="invalid('email') || null"
+    />
+    @if (invalid('email')) {
+      <p class="field__error" i18n="Contact form validation">Vul een geldig e-mailadres in.</p>
+    }
+  </div>
+
+  <div class="field">
+    <label for="onderwerp" i18n="Contact form field label">Onderwerp</label>
+    <input id="onderwerp" type="text" formControlName="onderwerp" />
+  </div>
+
+  <div class="field">
+    <label for="bericht" i18n="Contact form field label">Bericht</label>
+    <textarea
+      id="bericht"
+      rows="5"
+      formControlName="bericht"
+      required
+      [attr.aria-invalid]="invalid('bericht') || null"
+    ></textarea>
+    @if (invalid('bericht')) {
+      <p class="field__error" i18n="Contact form validation">Vul uw bericht in.</p>
+    }
+  </div>
+
+  <button class="form__submit" type="submit" [disabled]="state() === 'sending'">
+    @if (state() === 'sending') {
+      <span i18n="Contact form button, while submitting">Verzenden…</span>
+    } @else {
+      <span i18n="Contact form button">Verzenden</span>
+    }
+  </button>
+
+  <p class="form__status" role="status" aria-live="polite">
+    @if (state() === 'sent') {
+      <span class="form__status--ok" i18n="Contact form confirmation"
+        >Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.</span
+      >
+    } @else if (state() === 'error') {
+      <span class="form__status--error" i18n="Contact form error"
+        >Er ging iets mis bij het verzenden. Probeer het opnieuw of bel ons rechtstreeks.</span
+      >
+    }
+  </p>
+</form>

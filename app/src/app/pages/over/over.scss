@@ -1,0 +1,115 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.intro {
+  --section-y-first: clamp(2.25rem, 5.9vw, 5.31rem); // measured 85px
+
+  padding-block: var(--section-y-first) var(--section-y);
+}
+
+.intro__inner {
+  @include container;
+
+  display: grid;
+  grid-template-columns: 186px minmax(0, 546px);
+  // Measured on the original at 1440: portrait at x=98, text at x=336.
+  gap: 52px;
+  align-items: start;
+  padding-left: calc(var(--gutter) + 40px);
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+    padding-left: var(--gutter);
+  }
+}
+
+.intro__portrait {
+  width: 186px;
+  height: 186px;
+  object-fit: cover;
+}
+
+.intro__name {
+  margin-bottom: var(--space-2xs);
+  font-size: var(--fs-lead);
+  font-weight: var(--fw-bold);
+}
+
+.intro__tagline {
+  margin: 0;
+  font-size: var(--fs-small);
+  font-style: italic;
+}
+
+// The original separates the portrait from the prose with a hairline that has
+// a slight diagonal drift. A plain rule reads the same at normal viewing size.
+.divider {
+  height: 1px;
+  margin: 0;
+  border: 0;
+  background: var(--c-rule-soft);
+}
+
+.prose {
+  padding-block: var(--section-y) var(--section-y-lg);
+}
+
+.prose__inner {
+  @include container;
+}
+
+// Measured on the original at 1440 (content spans 58..1382, so 1324 wide):
+// the label column starts at x=336 and the prose column at x=670. That is a
+// 21% indent, then a 32/68 split of what remains.
+.row {
+  display: grid;
+  grid-template-columns: 32% 68%;
+  padding-left: 21%;
+  margin-bottom: var(--space-2xl);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+    padding-left: 0;
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.row__label {
+  @include heading(var(--fs-h4));
+
+  color: var(--c-stone);
+}
+
+.row__body {
+  max-width: 770px;
+
+  p {
+    position: relative;
+    padding-left: 1.4em;
+    // Squarespace justifies these blocks; the ragged-right version reads
+    // noticeably different at desktop width.
+    text-align: justify;
+    margin-bottom: var(--space-sm);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    // Decorative marker, so it stays out of the markup and out of translation.
+    &::before {
+      content: '\25BA';
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  .is-quote {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,86 @@
+// Design tokens lifted from the live Squarespace site's *computed* styles
+// (see reference/squarespace/extracted/typography.json). The odd fractional
+// sizes are Squarespace's fluid type scale - kept verbatim rather than rounded,
+// because rounding them visibly shifts line wrapping on the longer Dutch copy.
+
+:root {
+  // ---------------------------------------------------------------- colour
+  --c-ink: #000000; // body copy, headings
+  --c-paper: #ffffff; // page background
+  --c-navy: #0a1a2e; // CTA band, footer accents      rgb(10, 26, 46)
+  // The original's muted grey is #a3a09e, which scores 2.59:1 on white - well
+  // under the 4.5:1 WCAG AA minimum, both as text and as the button fill behind
+  // white labels. Darkened to the same hue at 5.2:1. This is a deliberate
+  // departure from the original.
+  --c-stone: #6f6c69; // muted links, buttons
+  --c-stone-faint: #a3a09e; // decorative only - never behind text
+  --c-field: #eeedeb; // form input fill               rgb(238, 237, 235)
+  --c-rule: #bbbbbb; // hairline dividers
+  --c-rule-soft: rgba(0, 0, 0, 0.12);
+
+  // ------------------------------------------------------------ typography
+  // Poppins carries the body, nav, labels and buttons; Rajdhani is the
+  // wordmark only. Both are freely licensed and self-hosted.
+  --font-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-wordmark: 'Rajdhani', var(--font-body);
+
+  // The original headings use Acumin Pro (Adobe Fonts, licensed through
+  // Squarespace and non-transferable). Archivo is the closest freely licensed
+  // match: a neo-grotesque with Acumin's slightly narrow proportions, so
+  // headings wrap at the same points. Inter is a touch wider and pushed
+  // "Bemiddeling zoals het moet" onto two lines.
+  // Swapping the substitute is a one-line change here.
+  --font-heading: 'Archivo Variable', 'Archivo', var(--font-body);
+
+  --fw-light: 300;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-wordmark: 33.28px;
+  --fs-h2: 47.104px;
+  --fs-h3: 36.736px;
+  --fs-h4: 26.368px;
+  --fs-lead: 24.64px;
+  --fs-body: 16px;
+  --fs-small: 14.272px;
+  --fs-caption: 14px;
+  --fs-tiny: 11.5px;
+
+  --lh-wordmark: 1.4;
+  --lh-heading: 1.3;
+  --lh-body: 1.8;
+
+  --ls-action: 0.02em; // 0.28544px at 14.272px
+
+  // ---------------------------------------------------------------- layout
+  // Squarespace pads the page by 4vw, which lands on 58px at a 1440 viewport.
+  --gutter: 4vw;
+  --container: 1440px;
+
+  --space-2xs: 0.5rem;
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2.5rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-2xl: 8.5rem;
+
+  // Squarespace's section padding is viewport-relative: 3.3vw and 6.6vw, which
+  // measure 47.52px and 95.04px at a 1440 viewport. Clamped so the rhythm does
+  // not collapse on phones or run away on very wide screens.
+  --section-y: clamp(1.75rem, 3.3vw, 3rem);
+  --section-y-lg: clamp(2.5rem, 6.6vw, 5.94rem);
+
+  // Gap between the header and the first section. Squarespace sets this per
+  // page rather than globally; these are the values measured at 1440, with the
+  // 108px header subtracted. Pages override --section-y-first locally.
+  --section-y-first: clamp(2.5rem, 6.7vw, 6.06rem); // 97px, the common case
+
+  --transition: 160ms ease;
+}
+
+// Breakpoints. Squarespace collapses its grid at 991px and switches to the
+// mobile header at 767px; matching those keeps the reflow points identical.
+$bp-tablet: 991px;
+$bp-mobile: 767px;
+$bp-small: 480px;

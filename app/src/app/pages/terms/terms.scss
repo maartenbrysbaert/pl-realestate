@@ -1,0 +1,56 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.terms {
+  padding-block: var(--section-y-first) var(--section-y-lg);
+}
+
+.terms__inner {
+  @include container;
+}
+
+.terms__content {
+  @include measure(860px);
+}
+
+h1 {
+  @include heading(var(--fs-h2));
+
+  margin-bottom: var(--space-lg);
+}
+
+h2 {
+  @include heading(var(--fs-h3));
+
+  margin-block: var(--space-lg) var(--space-sm);
+}
+
+h3 {
+  @include heading(var(--fs-h4));
+
+  margin-block: var(--space-md) var(--space-xs);
+}
+
+p {
+  margin-bottom: var(--space-xs);
+  text-align: justify;
+}
+
+// The original prefixes these with a ► glyph rather than a bullet.
+.terms__list {
+  margin: 0 0 var(--space-xs);
+  padding: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    padding-left: 1.4em;
+    margin-bottom: 0.2em;
+
+    &::before {
+      content: '\25BA';
+      position: absolute;
+      left: 0;
+    }
+  }
+}

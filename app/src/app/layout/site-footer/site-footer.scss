@@ -1,0 +1,43 @@
+@use 'tokens' as *;
+@use 'mixins' as *;
+
+.footer {
+  border-top: 1px solid var(--c-rule-soft);
+  padding-block: var(--space-lg) var(--space-xl);
+}
+
+.footer__inner {
+  @include container;
+}
+
+.footer__title {
+  @include heading(var(--fs-h4));
+
+  margin-bottom: var(--space-md);
+}
+
+.footer__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  max-width: 1324px;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer__address {
+  margin-bottom: var(--space-xs);
+}
+
+// Squarespace renders this line at a smaller size than the rest of the block.
+.footer__offices {
+  font-size: var(--fs-body);
+}
+
+.footer__more {
+  color: var(--c-stone);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
