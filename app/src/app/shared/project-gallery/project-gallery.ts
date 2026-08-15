@@ -53,6 +53,19 @@ export class ProjectGallery implements OnInit {
 
   private static readonly INTERVAL_MS = 6000;
 
+  /**
+   * Whether the slideshow is advancing on its own. WCAG 2.2.2 requires a way to
+   * stop any motion that starts automatically and runs for more than five
+   * seconds; honouring `prefers-reduced-motion` covers some users but does not
+   * satisfy it on its own, so there is a visible control too.
+   */
+  protected readonly playing = signal(false);
+
+  protected readonly pauseLabel = $localize`:Slideshow control:Diavoorstelling pauzeren`;
+  protected readonly playLabel = $localize`:Slideshow control:Diavoorstelling afspelen`;
+
+  private timer: ReturnType<typeof setInterval> | undefined;
+
   ngOnInit(): void {
     if (this.mode() !== 'slideshow' || !this.isBrowser) return;
 
@@ -60,8 +73,40 @@ export class ProjectGallery implements OnInit {
     // the kind of thing prefers-reduced-motion exists for.
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    const timer = setInterval(() => this.next(), ProjectGallery.INTERVAL_MS);
-    this.destroyRef.onDestroy(() => clearInterval(timer));
+    this.start();
+    this.destroyRef.onDestroy(() => this.stop());
+  }
+
+  private start(): void {
+    this.stop();
+    this.timer = setInterval(() => this.next(), ProjectGallery.INTERVAL_MS);
+    this.playing.set(true);
+  }
+
+  private stop(): void {
+    if (this.timer !== undefined) clearInterval(this.timer);
+    this.timer = undefined;
+    this.playing.set(false);
+  }
+
+  protected togglePlaying(): void {
+    this.playing() ? this.stop() : this.start();
+  }
+
+  /**
+   * Pause while the pointer or focus is inside, so the photo someone is
+   * actually looking at does not slide away under them. Only resumes if they
+   * had not explicitly paused it.
+   */
+  protected onEnter(): void {
+    if (this.timer !== undefined) clearInterval(this.timer);
+    this.timer = undefined;
+  }
+
+  protected onLeave(): void {
+    // `playing` stays true through a hover pause, so this only resumes for
+    // someone who had not pressed pause themselves.
+    if (this.playing() && this.timer === undefined) this.start();
   }
 
   protected next(): void {

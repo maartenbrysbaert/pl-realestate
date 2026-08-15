@@ -1,5 +1,15 @@
 @if (mode() === 'slideshow') {
-  <div class="slideshow">
+  <!--
+    Hovering or tabbing into the slideshow pauses it, so the photo someone is
+    looking at does not slide away under them.
+  -->
+  <div
+    class="slideshow"
+    (mouseenter)="onEnter()"
+    (mouseleave)="onLeave()"
+    (focusin)="onEnter()"
+    (focusout)="onLeave()"
+  >
     <div
       class="slideshow__stage"
       role="region"
@@ -46,6 +56,33 @@
       >
         <span aria-hidden="true">&#8594;</span>
       </button>
+
+      <!--
+        WCAG 2.2.2: motion that starts on its own and runs past five seconds
+        needs a way to stop it.
+      -->
+      <button
+        class="slideshow__nav slideshow__play"
+        type="button"
+        (click)="togglePlaying()"
+        [attr.aria-pressed]="!playing()"
+        [attr.aria-label]="
+          playing()
+            ? pauseLabel
+            : playLabel
+        "
+      >
+        @if (playing()) {
+          <svg viewBox="0 0 12 14" aria-hidden="true">
+            <rect x="1" y="1" width="3.5" height="12" fill="currentColor" />
+            <rect x="7.5" y="1" width="3.5" height="12" fill="currentColor" />
+          </svg>
+        } @else {
+          <svg viewBox="0 0 12 14" aria-hidden="true">
+            <path d="M1 1l10 6-10 6z" fill="currentColor" />
+          </svg>
+        }
+      </button>
     </div>
   </div>
 } @else {
@@ -61,10 +98,21 @@
           [height]="project.height"
           loading="lazy"
           decoding="async"
-          sizes="(max-width: 767px) 50vw, (max-width: 991px) 33vw, 33vw"
+          sizes="(max-width: 767px) 92vw, (max-width: 991px) 33vw, 33vw"
           [alt]="caption(project)"
         />
-        <p class="tile__caption">{{ caption(project) }}</p>
+        <!--
+          Location and status on their own lines rather than one "Location :
+          Status" string. As a single line, 17 of 47 captions wrapped and
+          orphaned the status ("Sint-Martens-Latem :" / "Sold"), which left the
+          tiles at three different heights and the grid visibly ragged.
+        -->
+        <p class="tile__caption">
+          <span class="tile__place">{{ project.location }}</span>
+          @if (project.status) {
+            <span class="tile__status">{{ project.status }}</span>
+          }
+        </p>
       </li>
     }
 

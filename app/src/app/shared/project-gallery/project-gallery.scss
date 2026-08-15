@@ -72,6 +72,18 @@
   }
 }
 
+.slideshow__play svg {
+  width: 12px;
+  height: 14px;
+}
+
+// Nothing to pause when the timer never started.
+@media (prefers-reduced-motion: reduce) {
+  .slideshow__play {
+    display: none;
+  }
+}
+
 // ---------------------------------------------------------------------- grid
 
 // The original keeps three columns all the way down to the mobile breakpoint,
@@ -84,9 +96,11 @@
   padding: 0;
   list-style: none;
 
+  // Single column on phones. Two columns matched the original but left each
+  // photo 171px wide, and the photography is the substance of this page.
   @include mobile {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-sm) var(--space-xs);
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 }
 
@@ -101,6 +115,17 @@
   margin: 0.75rem 0 0;
   font-size: var(--fs-caption);
   line-height: var(--lh-body);
+}
+
+.tile__place {
+  display: block;
+}
+
+// The status reads as a label on the project, so it is set back from the
+// place name rather than run together with it.
+.tile__status {
+  display: block;
+  color: var(--c-stone);
 }
 
 // The original ends the grid with a flat placeholder image; rendering it as

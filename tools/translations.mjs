@@ -318,6 +318,8 @@ export const TRANSLATIONS = {
     'Benieuwd wat ik voor u kan betekenen of voor een kort gratis advies:':
       "Curieux de savoir ce que je peux faire pour vous, ou pour un bref conseil gratuit :",
     'Referenties diavoorstelling': 'Diaporama des références',
+    'Diavoorstelling pauzeren': 'Mettre le diaporama en pause',
+    'Diavoorstelling afspelen': 'Lancer le diaporama',
     'Vorige referentie': 'Référence précédente',
     'Volgende referentie': 'Référence suivante',
     'MORE SOON...': 'BIENTÔT PLUS...',
@@ -624,6 +626,8 @@ export const TRANSLATIONS = {
     'Benieuwd wat ik voor u kan betekenen of voor een kort gratis advies:':
       'Curious what I can do for you, or after a short piece of free advice:',
     'Referenties diavoorstelling': 'References slideshow',
+    'Diavoorstelling pauzeren': 'Pause the slideshow',
+    'Diavoorstelling afspelen': 'Play the slideshow',
     'Vorige referentie': 'Previous reference',
     'Volgende referentie': 'Next reference',
     'MORE SOON...': 'MORE SOON...',

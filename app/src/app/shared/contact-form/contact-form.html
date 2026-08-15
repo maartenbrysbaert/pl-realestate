@@ -66,7 +66,12 @@
     }
   </button>
 
-  <p class="form__status" role="status" aria-live="polite">
+  <!--
+    aria-live announces the outcome to screen readers, but sighted keyboard
+    users get nothing: the submit button they were on is still focused and the
+    result sits below it. tabindex="-1" lets us move focus here instead.
+  -->
+  <p class="form__status" #status tabindex="-1" role="status" aria-live="polite">
     @if (state() === 'sent') {
       <span class="form__status--ok" i18n="Contact form confirmation"
         >Bedankt voor uw bericht. We nemen zo snel mogelijk contact met u op.</span

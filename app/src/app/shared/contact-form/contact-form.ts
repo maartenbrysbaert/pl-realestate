@@ -1,4 +1,4 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, ElementRef, inject, signal, viewChild } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
 type SubmitState = 'idle' | 'sending' | 'sent' | 'error';
@@ -22,6 +22,7 @@ const FORM_NAME = 'contact';
 })
 export class ContactForm {
   private readonly fb = inject(FormBuilder);
+  private readonly status = viewChild<ElementRef<HTMLElement>>('status');
 
   protected readonly state = signal<SubmitState>('idle');
 
@@ -62,6 +63,9 @@ export class ContactForm {
     } catch {
       this.state.set('error');
     }
+
+    // Wait for the message to render before moving to it.
+    queueMicrotask(() => this.status()?.nativeElement.focus());
   }
 
   protected invalid(field: string): boolean {

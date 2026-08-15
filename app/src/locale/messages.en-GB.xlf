@@ -709,9 +709,9 @@
           <target>Legal basis (or bases) for processing</target>
         </segment>
     </unit>
-    <unit id="1302415204734038492">
+    <unit id="3646122678615852926">
       <segment>
-          <source>Persoonsgegevens worden verwerkt op basis van artikel 6.1.</source>
+          <source> Persoonsgegevens worden verwerkt op basis van artikel 6.1. </source>
           <target>Personal data are processed on the basis of Article 6.1.</target>
         </segment>
     </unit>
@@ -727,9 +727,9 @@
           <target>(b) necessary for the performance of a contract</target>
         </segment>
     </unit>
-    <unit id="8919528560156231271">
+    <unit id="7330185753906993622">
       <segment>
-          <source>(c) noodzakelijk om te voldoen aan een wettelijke verplichting</source>
+          <source> (c) noodzakelijk om te voldoen aan een wettelijke verplichting </source>
           <target>(c) necessary for compliance with a legal obligation</target>
         </segment>
     </unit>
@@ -799,9 +799,9 @@
           <target>In order to exercise the rights set out above, the client is asked to take one of the following steps:</target>
         </segment>
     </unit>
-    <unit id="67697517617190249">
+    <unit id="8697184576881258483">
       <segment>
-          <source>zelf de instellingen van zijn klant account aan te passen;</source>
+          <source> zelf de instellingen van zijn klant account aan te passen; </source>
           <target>adjust the settings of their client account themselves;</target>
         </segment>
     </unit>
@@ -913,9 +913,9 @@
           <target>who in any way damages the good reputation of the site</target>
         </segment>
     </unit>
-    <unit id="9181360441261448306">
+    <unit id="2955016328096690014">
       <segment>
-          <source>die inbreuk zou plegen op de intellectuele rechten van derden</source>
+          <source> die inbreuk zou plegen op de intellectuele rechten van derden </source>
           <target>who infringes the intellectual property rights of third parties</target>
         </segment>
     </unit>
@@ -1103,6 +1103,18 @@
       <segment>
           <source>MORE SOON...</source>
           <target>MORE SOON...</target>
+        </segment>
+    </unit>
+    <unit id="8845329899334348158">
+      <segment>
+          <source>Diavoorstelling pauzeren</source>
+          <target>Pause the slideshow</target>
+        </segment>
+    </unit>
+    <unit id="1739830391498528927">
+      <segment>
+          <source>Diavoorstelling afspelen</source>
+          <target>Play the slideshow</target>
         </segment>
     </unit>
     <unit id="349743369183083595">

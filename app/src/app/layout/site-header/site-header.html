@@ -5,6 +5,7 @@
     <a class="wordmark" routerLink="/" (click)="closeMenu()">{{ site.wordmark }}</a>
 
     <button
+      #burger
       class="burger"
       type="button"
       [attr.aria-expanded]="menuOpen()"
@@ -16,6 +17,7 @@
     </button>
 
     <nav
+      #nav
       class="nav"
       id="primary-nav"
       [class.nav--open]="menuOpen()"

@@ -709,9 +709,9 @@
           <target>Base(s) juridique(s) du traitement</target>
         </segment>
     </unit>
-    <unit id="1302415204734038492">
+    <unit id="3646122678615852926">
       <segment>
-          <source>Persoonsgegevens worden verwerkt op basis van artikel 6.1.</source>
+          <source> Persoonsgegevens worden verwerkt op basis van artikel 6.1. </source>
           <target>Les données à caractère personnel sont traitées sur la base de l&apos;article 6.1.</target>
         </segment>
     </unit>
@@ -727,9 +727,9 @@
           <target>(b) nécessaire à l&apos;exécution d&apos;un contrat</target>
         </segment>
     </unit>
-    <unit id="8919528560156231271">
+    <unit id="7330185753906993622">
       <segment>
-          <source>(c) noodzakelijk om te voldoen aan een wettelijke verplichting</source>
+          <source> (c) noodzakelijk om te voldoen aan een wettelijke verplichting </source>
           <target>(c) nécessaire au respect d’une obligation légale</target>
         </segment>
     </unit>
@@ -799,9 +799,9 @@
           <target>Afin d’exercer les droits précités, le client est invité à effectuer l’une des démarches suivantes :</target>
         </segment>
     </unit>
-    <unit id="67697517617190249">
+    <unit id="8697184576881258483">
       <segment>
-          <source>zelf de instellingen van zijn klant account aan te passen;</source>
+          <source> zelf de instellingen van zijn klant account aan te passen; </source>
           <target>modifier lui-même les paramètres de son compte client ;</target>
         </segment>
     </unit>
@@ -913,9 +913,9 @@
           <target>qui porterait atteinte, d&apos;une manière ou d&apos;une autre, à la bonne réputation du site</target>
         </segment>
     </unit>
-    <unit id="9181360441261448306">
+    <unit id="2955016328096690014">
       <segment>
-          <source>die inbreuk zou plegen op de intellectuele rechten van derden</source>
+          <source> die inbreuk zou plegen op de intellectuele rechten van derden </source>
           <target>qui porterait atteinte aux droits intellectuels de tiers</target>
         </segment>
     </unit>
@@ -1103,6 +1103,18 @@
       <segment>
           <source>MORE SOON...</source>
           <target>BIENTÔT PLUS...</target>
+        </segment>
+    </unit>
+    <unit id="8845329899334348158">
+      <segment>
+          <source>Diavoorstelling pauzeren</source>
+          <target>Mettre le diaporama en pause</target>
+        </segment>
+    </unit>
+    <unit id="1739830391498528927">
+      <segment>
+          <source>Diavoorstelling afspelen</source>
+          <target>Lancer le diaporama</target>
         </segment>
     </unit>
     <unit id="349743369183083595">
