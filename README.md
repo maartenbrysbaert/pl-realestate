@@ -90,6 +90,16 @@ exists purely so Netlify's build-time HTML scan registers it; the Angular compon
 POSTs to it as URL-encoded form data with a `form-name` field. Notification recipients
 are configured in the Netlify UI, not in this repo.
 
+Two deploy-time gotchas, both of which look like "the form silently does nothing":
+
+- **Form detection is opt-in per site** (Project configuration → Forms). It is enabled
+  on `pl-realestate`, but a site deployed *before* it was switched on has no registered
+  form — detection is not retroactive, so the next deploy after enabling it is what
+  actually registers `contact`.
+- **Every field the app submits must exist in `__forms.html`.** Netlify drops anything
+  it did not see at build time, without erroring. Add a field to the Angular form and
+  you must add it there too.
+
 ## Tooling
 
 Run from `tools/` after `npm install` there.
