@@ -1,10 +1,18 @@
 <section class="services">
   <div class="services__inner">
+    <!--
+      Responsive rather than fixed: without a sizes/ngSrcset pair NgOptimizedImage
+      invents a 2x density srcset, and the source photo is only 1000px wide so
+      that 2x file cannot exist. The column is 602/1094 of a 1216px frame, which
+      is ~42vw, and full-bleed inside the gutters below 768px.
+    -->
     <img
       class="services__photo"
-      ngSrc="/img/page/diensten-lead-600.webp"
-      width="600"
-      height="300"
+      ngSrc="/img/page/diensten-lead-1000.webp"
+      ngSrcset="500w, 800w, 1000w"
+      sizes="(max-width: 767px) 92vw, 42vw"
+      width="1000"
+      height="500"
       priority
       i18n-alt
       alt="Een gezin wandelt door een landschapstuin naar een oranjerie"

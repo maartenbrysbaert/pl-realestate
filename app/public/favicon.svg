@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PL Real Estate">
+  <!--
+    PL monogram. The letters are drawn as paths rather than set in Rajdhani so
+    the file stays self-contained; the flat terminals and squared foot follow
+    the wordmark's proportions. Cap height 14..50 with a stroke of 6 - large
+    enough that both letters still read at 16px, with the P's counter open.
+  -->
+  <rect width="64" height="64" fill="#0a1a2e" />
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M11 14v36" />
+    <path d="M11 17h9.5a8 8 0 0 1 0 16H11" />
+    <path d="M43 14v33h12" />
+  </g>
+</svg>

@@ -1,11 +1,17 @@
 <section class="intro">
   <div class="intro__inner">
+    <!--
+      The source portrait is 200x200, so there is no 2x file to point at and the
+      automatic density srcset would ask for one that 404s. Ship the single
+      largest size instead - it still covers the 186px frame.
+    -->
     <img
       class="intro__portrait"
-      ngSrc="/img/page/patrick-landuyt-186.webp"
-      width="186"
-      height="186"
+      ngSrc="/img/page/patrick-landuyt-200.webp"
+      width="200"
+      height="200"
       priority
+      disableOptimizedSrcset
       alt="Patrick Landuyt"
     />
     <div class="intro__text">

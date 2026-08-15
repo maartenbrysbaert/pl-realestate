@@ -114,8 +114,10 @@
 }
 
 .lang__menu {
+  --lang-menu-offset: 0.75em;
+
   position: absolute;
-  top: calc(100% + 0.75em);
+  top: calc(100% + var(--lang-menu-offset));
   right: 0;
   z-index: 10;
   min-width: 11rem;
@@ -138,6 +140,18 @@
   .lang:hover &,
   .lang:focus-within & {
     display: block;
+  }
+
+  // The offset above leaves a strip of dead space between the toggle and the
+  // menu. Crossing it takes the pointer out of .lang, which closes the menu
+  // again before it can be reached, so bridge the gap with an invisible band.
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--lang-menu-offset) - 1px);
+    right: 0;
+    left: 0;
+    height: var(--lang-menu-offset);
   }
 
   a {
@@ -164,6 +178,12 @@
     border: 0;
     box-shadow: none;
     padding-left: 0;
+
+    // Nothing to bridge once the menu sits in the flow, and there is no hover
+    // to keep alive on touch.
+    &::before {
+      content: none;
+    }
 
     a {
       padding-inline: 0;

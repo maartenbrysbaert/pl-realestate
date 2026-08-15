@@ -79,10 +79,16 @@
         >
       </p>
       <p>
+        <!--
+          &ngsp; because Angular drops whitespace-only text nodes between
+          elements, which glued the link to the sentence before it.
+        -->
         <span i18n="Contact page, terms acceptance notice"
           >Als u deze site bezoekt, gaat u akkoord met de</span
-        >
-        <a class="further__link" routerLink="/algemene-voorwaarden" i18n="Link to the terms page"
+        >&ngsp;<a
+          class="further__link"
+          routerLink="/algemene-voorwaarden"
+          i18n="Link to the terms page"
           >Algemene voorwaarden</a
         >
       </p>

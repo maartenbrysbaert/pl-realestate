@@ -214,16 +214,20 @@ console.log(`data -> app/src/app/data/projects.ts`);
 // Standalone page images: the portrait on /over and the lead photo on /diensten.
 // Small enough to just list rather than derive.
 
+// toWebp never upscales, so a width listed here that the source cannot reach is
+// silently dropped. Both sources are small (the portrait is 200x200, the lead
+// photo 1000x500), so these lists stop at the source width - the templates
+// reference exactly what comes out, and asking for more would 404.
 const PAGE_IMAGES = [
   {
     slug: 'patrick-landuyt',
     url: 'https://images.squarespace-cdn.com/content/v1/6790eac556945573d44514f1/1737550544977-JJ0OZR45NB9LTFPR66NR/1663597023191.jpg',
-    widths: [186, 372, 560],
+    widths: [200],
   },
   {
     slug: 'diensten-lead',
     url: 'https://images.squarespace-cdn.com/content/v1/6790eac556945573d44514f1/0992de0f-824a-486a-9142-2732683d6764/new.jpg',
-    widths: [600, 1200, 1600],
+    widths: [500, 800, 1000],
   },
 ];
 
