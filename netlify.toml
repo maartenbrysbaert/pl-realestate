@@ -12,6 +12,17 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Squarespace served /over with a 200. Netlify's pretty-URL handling would 301
+# it to /over/, which puts a redirect hop on every URL Google has already
+# indexed and leaves the canonical tag (/over) pointing at a URL that
+# immediately redirects. Turning it off keeps the served URL, the canonical and
+# the sitemap all spelled the same way.
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = false
+
 # ---------------------------------------------------------------- redirects
 # Order matters: Netlify applies the first matching rule.
 
