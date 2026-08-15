@@ -6,6 +6,13 @@
 
   Every field the app submits must be listed here, or Netlify silently discards
   it from the submission.
+
+  Netlify reuses previously uploaded files when their content hash is unchanged
+  ("All files already uploaded by a previous deploy"), and form detection only
+  runs over files it actually processes. A deploy made before form detection was
+  switched on therefore keeps this file cached and never scans it. If the form
+  stops being registered, change a byte in here to force a re-upload, or use
+  "Clear cache and deploy site".
 -->
 <html lang="nl-BE">
   <head>

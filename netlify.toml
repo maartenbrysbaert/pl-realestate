@@ -8,6 +8,11 @@
   base = "app"
   command = "npm run build"
   publish = "dist/app/browser"
+  # Always build. `base` is app/, but the build also runs tools/generate-sitemap.mjs
+  # from the repo root, so skipping builds when nothing under app/ changed would
+  # silently ignore changes to the sitemap, the redirect rules and this file.
+  # A non-zero exit means "do not ignore".
+  ignore = "/bin/false"
 
 [build.environment]
   NODE_VERSION = "22"
